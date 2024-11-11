@@ -1,0 +1,26 @@
+from: markdown+emoji
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "TPEE Presentation" 
+  navbar:
+    title: false
+    left:
+      - href: ../index.html
+        text: Home
+      - href: index.qmd
+        text: The Carbon Footprint of Capital
+      - href: ./Resources/Slides.pdf
+        text: Slides
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+

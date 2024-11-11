@@ -1,0 +1,42 @@
+\documentclass{beamer}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{csquotes}
+
+\DeclareSymbolFont{matha}{OML}{txmi}{m}{it}% txfonts
+\DeclareMathSymbol{\varv}{\mathord}{matha}{118}
+\usetheme{metropolis}
+
+\usefonttheme{serif} % default family is serif
+
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+\title{Article presentation :}
+\subtitle{Chancel L., Rehm Y., The Carbon Footprint of Capital: Evidence from France, Germany and the US based on Distributional Environmental Accounts}
+\author{COMPERAT Étienne  \\ GUGELMO CAVALHEIRO DIAS Paulo \\ ORTIZ Marien Ange}
+\institute{Sciences Po}
+\date{\today}
+
+\newcommand\ReduceFont{\fontsize{10}{7.2}\selectfont}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \ReduceFont
+    \frametitle{Outline}
+    \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction}
+\begin{frame}
+    \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
+\end{frame}
+
+\end{document}

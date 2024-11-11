@@ -1,0 +1,16 @@
+---
+title: "About"
+---
+
+::: {.callout-caution}
+This website is currently under construction ! 
+The material is still being developped and some pages are missing. 
+:::
+
+Hello :wave: ! We are three students in the Master of Research in Economics of Sciences Po and this website is dedicated to our presentation of the article "..." for our class "Topics in Public and Environmental Economics" with [Stefan Pollinger](https://www.stefanpollinger.com/). 
+
+Feel free to contact us via our email address :grin: ("firstname.familyname@sciencespo.fr") : 
+
+- Marie Ange ORTIZ
+- Étienne COMPERAT ([here his website](https://ecomperat.github.io/))
+- Paulo GUGELMO CAVALHEIRO DIAS
