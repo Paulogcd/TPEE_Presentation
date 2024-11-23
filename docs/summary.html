@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>TPEE Presentation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">The Carbon Footprint of Capital</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="././Resources/Slides.pdf"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract-p.0" id="toc-abstract-p.0" class="nav-link active" data-scroll-target="#abstract-p.0">Abstract (p.0)</a></li>
+  <li><a href="#introduction-pp.1-4" id="toc-introduction-pp.1-4" class="nav-link" data-scroll-target="#introduction-pp.1-4">1 Introduction (pp.1-4)</a></li>
+  <li><a href="#related-literature-pp.4-10" id="toc-related-literature-pp.4-10" class="nav-link" data-scroll-target="#related-literature-pp.4-10">2 Related Literature (pp.4-10)</a>
+  <ul class="collapse">
+  <li><a href="#origins-pp." id="toc-origins-pp." class="nav-link" data-scroll-target="#origins-pp.">2.1. Origins (pp.)</a></li>
+  <li><a href="#consumption-based-approaches-pp." id="toc-consumption-based-approaches-pp." class="nav-link" data-scroll-target="#consumption-based-approaches-pp.">2.2. COnsumption-based approaches (pp.)</a></li>
+  <li><a href="#critique-of-the-consumption-based-approach-pp.6-7" id="toc-critique-of-the-consumption-based-approach-pp.6-7" class="nav-link" data-scroll-target="#critique-of-the-consumption-based-approach-pp.6-7">2.3. Critique of the consumption-based approach (pp.6-7)</a></li>
+  <li><a href="#production-based-approaches-and-methods-of-shared-attribution-pp.7-" id="toc-production-based-approaches-and-methods-of-shared-attribution-pp.7-" class="nav-link" data-scroll-target="#production-based-approaches-and-methods-of-shared-attribution-pp.7-">2.4. Production-based approaches and methods of shared attribution (pp.7-)</a></li>
+  <li><a href="#carbon-emissions-of-individual-investment-portfolios" id="toc-carbon-emissions-of-individual-investment-portfolios" class="nav-link" data-scroll-target="#carbon-emissions-of-individual-investment-portfolios">2.5. Carbon emissions of individual investment portfolios</a></li>
+  <li><a href="#distributional-national-and-environmental-accounts-pp.-10" id="toc-distributional-national-and-environmental-accounts-pp.-10" class="nav-link" data-scroll-target="#distributional-national-and-environmental-accounts-pp.-10">2.6. Distributional national and environmental accounts (pp.-10)</a></li>
+  </ul></li>
+  <li><a href="#data-sources-and-methodology" id="toc-data-sources-and-methodology" class="nav-link" data-scroll-target="#data-sources-and-methodology">3. Data Sources and Methodology</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p>This is a working summary of the paper</p>
+<section id="abstract-p.0" class="level1">
+<h1>Abstract (p.0)</h1>
+<p>The Abstract of the paper gives general indications about where the paper wants to go :</p>
+<ul>
+<li>What is the carbon footprint of capital ? What is its distribution ?</li>
+</ul>
+<p>To answer this question, they offer a new acounting framework that captures all emissions without double counting.</p>
+<p>Their results are :</p>
+<ul>
+<li>This accounting framework underlies that the rich parts of the distributions are much more responsible of the emissions than in other accounting systems.</li>
+<li>For the very rich, most of their emissions stem from asset ownership, not from direct energy consumption.</li>
+<li>Emissions from capital ownership is more concentrated than cpital itself.</li>
+</ul>
+<p>The implications at the policy-level are that targeting individual assets and investments should be promising to reduce CO_2 emissions.</p>
+</section>
+<section id="introduction-pp.1-4" class="level1">
+<h1>1 Introduction (pp.1-4)</h1>
+<ol type="1">
+<li><p>They identify an existing gap in the literature of carbon accounting : individuals as owners of polluting assets. Indeed, they underly that most of the existing literature focus on either the country level, or on the individual as final consumers, or finally on the corporate as producers.</p></li>
+<li><p>Most of the literature of carbon accounting focused on individuals have taken the consumer based approach. At the international level, this is interesting because it allows a study of why some countries have emissions that in fact are due to the living standard level of other countries. At the national level however, this is problematic because there is a clear problem in putting all the responsibility of the carbon emissions to the final consumer.</p></li>
+<li><p>They say that this article has 3 main goals :</p></li>
+</ol>
+<ul>
+<li>Define 3 measures of individual carbon footprint including ownership-related emissions.</li>
+<li>Apply those measure to France, Germany, and the USA.</li>
+<li>Show stylized facts and discuss implications at the environmental and tax policies level.</li>
+</ul>
+<ol start="4" type="1">
+<li>The 3 approaches of measure of individual carbon footprint are :</li>
+</ol>
+<ul>
+<li>owenrship-based approach : emissions from production are attributed to firm owners.</li>
+<li>consumption-based approach : attribution to the final consumers.</li>
+<li>mixed-based approach : emissions from production are attributed to consumers, except the ones du to capital formation (investment).</li>
+</ul>
+<p>They say that in all approaches, direct emissions of Households are attributed to the Households themselves.</p>
+<ol start="5" type="1">
+<li><p>They combining official environmental accounts (i.e.&nbsp;air emissions) and national accounts (like production, income, and wealth) to compute the carbon distribution at the individual level for the 3 approaches.</p></li>
+<li><p>With the distribution of asset ownership, they estimate the individual emissions of asset ownership, with “existing estimates from the literature on the distribution of direct and consumption-based emissions”(p.2). Essentially, they combine :</p></li>
+</ol>
+<ul>
+<li>estimates of emissions</li>
+<li>asset ownership distribution</li>
+</ul>
+<p>To estimate individual emissions of asset ownership.</p>
+<ol start="8" type="1">
+<li><p>Using this approach, they find important emissions inequalities. When using the ownership-based approach, the rich are much more responsible of emissions (increase by 2 to 2.8 timefolds).</p></li>
+<li><p>Also, they find that the majority of emissions of the wealthiest come from their asset, and not from their consumption.</p></li>
+<li><p>They also note a higher concentration of emissions from wealth ownership. In other words, the assets of the very rich have a higher emission intensity in average.</p></li>
+<li><p>They conclude that a tax on wealth emissions would be more progressive than a tax on emissions of consumption.</p></li>
+</ol>
+<p>Contributions to the literature :</p>
+<ol start="13" type="1">
+<li><p>They claim that their accounting system is consistent with satellite environmental accounts and distributional national accounts.</p></li>
+<li><p>Also, they depart from the consumption-based literature and offer a framework for individuals such as owners and investors.</p></li>
+<li><p>THey claim to provide original data about emissions of types of assets, that are consistent with macroeconomics totals.</p></li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This claim seems to be huge. This would mean that not only do they have alternative to the GHG protocol data and Trucost EDX dataset, but that they are also macro consistent.</p>
+</div>
+</div>
+<ol start="16" type="1">
+<li>This consistent framework allows for policy-studies at a finer level. Notably, for the study incidence of carbon taxes.</li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This claim seems to be huge. Together with estimates of leasticity of emissions with respect to tax, we could have a consistent model, comparable to a development of Diamond and Mirrlees (1971) but for carbon taxes.</p>
+</div>
+</div>
+</section>
+<section id="related-literature-pp.4-10" class="level1">
+<h1>2 Related Literature (pp.4-10)</h1>
+<ol start="18" type="1">
+<li>They announce to focus on the critiques of the “dominant consumption-centered approach” (p.4) of the current literature.</li>
+</ol>
+<section id="origins-pp." class="level2">
+<h2 class="anchored" data-anchor-id="origins-pp.">2.1. Origins (pp.)</h2>
+<ol start="19" type="1">
+<li>THey identify carbon footprint as a concept developed in the 2000s, and take the definition of the IPCC 2022 and of Wiedmann and Minx, 2008. They advance two ideal properties of a carbobn footprint measure framework :</li>
+</ol>
+<ul>
+<li>comprehensiveness : the system should take into account direct and indirect emissions of economic activities.</li>
+<li>exclusivity : the system should not have double-counting.</li>
+</ul>
+<ol start="20" type="1">
+<li>They recall the importance of the individual carbon footprint concept.</li>
+</ol>
+</section>
+<section id="consumption-based-approaches-pp." class="level2">
+<h2 class="anchored" data-anchor-id="consumption-based-approaches-pp.">2.2. COnsumption-based approaches (pp.)</h2>
+<ol start="21" type="1">
+<li><p>The authors advance that the underlying assumption of the consumption-based appraoches of the measure of carbon footprint is that “individuals express their preferences through consumption (…), thereby guiding resource allocation in the economy” (p.5).</p></li>
+<li><p>They recall that consumers-centered approaches are relevant to highlight international life-style discrepancies.</p></li>
+<li><p>They underly the fact that British Petroleum (BP) was one of the first to push forward this concept of individual carbon footprint and remind that “other interests may have played a role” (p.6).</p></li>
+<li><p>They also advance that the country-level studies of carbon footprint were a product of the extension of the consumption-centered approach. They mention the Léontieff method and the development of sectorial coefficients of pollution-per-currency-unit (send a message to Jonathan pour qu’il me file la référence de la critique de cet aspect des statistiques de Chancel).</p></li>
+<li><p>They remind a key finding of Chancel and Piketty (2015) : carbon inequalities rised within countries and declined across countries.</p></li>
+</ol>
+</section>
+<section id="critique-of-the-consumption-based-approach-pp.6-7" class="level2">
+<h2 class="anchored" data-anchor-id="critique-of-the-consumption-based-approach-pp.6-7">2.3. Critique of the consumption-based approach (pp.6-7)</h2>
+<p>26-28. The authors advance that the consumption-based approach oversttes the weight of individual choices on the economy. For that, they advance :</p>
+<ul>
+<li>Market failures, such as monopoly or the impossibility to get carbon-free products.</li>
+<li>Markup in the prices, that make individual changes impossible due to budget constraints.</li>
+<li>Information asymmetries (Akerlof, Rothschild… (p.6))</li>
+<li>Pollution from production does not only serve consumption, because decision power in the production process also fives utility to the producer.</li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The third reason seems to be more name dropping than anything else. The mentioned articles underly the presence of information asymmetry, but the text does not explain how the information asymmetry affects the carbon emissions. The fourth point could be interesting for a micro-foundation of the reasoning.</p>
+</div>
+</div>
+</section>
+<section id="production-based-approaches-and-methods-of-shared-attribution-pp.7-" class="level2">
+<h2 class="anchored" data-anchor-id="production-based-approaches-and-methods-of-shared-attribution-pp.7-">2.4. Production-based approaches and methods of shared attribution (pp.7-)</h2>
+<ol start="29" type="1">
+<li>To answer the shortcomings of the consumption-based approach, an alternative has been the production-based approach, that is centered around the emissions of producing firms.</li>
+</ol>
+<p>30-32. The authors propose to go from firm emissions to individuals emissions by focusing on the individuals running the firm.</p>
+<ol start="33" type="1">
+<li><p>The authors then mention the share attribution methods, that focus on dividing emissions across the members of the production chain depending on thei added value (the reference seems to be Lenzen et al., 2007), the rest being attributed to the consumer. An alternative would be to divide emission by economic surplus. Both methods split the emissions between producers and consumers. They mention that the main inconvenient of this approach is that it requires data at an aggregated level, which is excluded for individual investors.</p></li>
+<li><p>They also mention income-based carbon accounting, by linkning emissions of production to the income received by individuals that participate in the production process, either by working or having capital. They mention that to the best of their knowledge, only two studies of this sort exist (among which a pepr of Pottier p.9).</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This last approach seems very close to what they are doing, except that it does not seem to involve distributions and national accounting.</p>
+</div>
+</div>
+</section>
+<section id="carbon-emissions-of-individual-investment-portfolios" class="level2">
+<h2 class="anchored" data-anchor-id="carbon-emissions-of-individual-investment-portfolios">2.5. Carbon emissions of individual investment portfolios</h2>
+<p>They here mention the GHG protocol and a similar initiative : the Partnership for Carbon Accounting Financials (PCAF). They however advance that :</p>
+<ul>
+<li>There is no consensus in the way of carbon accounting.</li>
+<li>These estimates are not macro-consistent.</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I very much doubt the first point. The second point is what really matters in the article.</p>
+</div>
+</div>
+</section>
+<section id="distributional-national-and-environmental-accounts-pp.-10" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-national-and-environmental-accounts-pp.-10">2.6. Distributional national and environmental accounts (pp.-10)</h2>
+<p>36-38 : The authors advance that micro-founded datasets about national accounts have known a good improvement in the recent years, notably with the Distributional National Accounts (DINA). At the same time, no micro-macro consistent data exist for environmental pollution. Therefore, they base themselves on the DINA framework to construct a micro-macro consistent dataset for income, wealth, and emissions.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>My main concern here is that the usual critiques of the DINA framework could invalidate the data constructed on the DINA framework.</p>
+<p>Also, what do they exactly mean with micro-macro founded in this context ? Does it refer to the exclusivity criterium of the accounting system, defined in the 19 paragraph ? This confusion should be cleared.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="data-sources-and-methodology" class="level1">
+<h1>3. Data Sources and Methodology</h1>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -12,5 +12,54 @@
     "title": "The carbon footprint of capital",
     "section": "",
     "text": "Caution\n\n\n\nThis website is currently under construction ! The material is still being developped and some pages are missing.\n\n\nWelcome to this website dedicated to the presentation of the working paper : Chancel L., Rehm Y., The Carbon Footprint of Capital: Evidence from France, Germany and the US based on Distributional Environmental Accounts, 2024. You can find the latest version of the paper here.\nHere are some useful resources for a good understanding of the authors work :\n\nOur presentation (here the Latex code)\nA textual summary of the article\n\nMore coming soon !"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Abstract (p.0)",
+    "section": "",
+    "text": "This is a working summary of the paper"
+  },
+  {
+    "objectID": "summary.html#origins-pp.",
+    "href": "summary.html#origins-pp.",
+    "title": "Abstract (p.0)",
+    "section": "2.1. Origins (pp.)",
+    "text": "2.1. Origins (pp.)\n\nTHey identify carbon footprint as a concept developed in the 2000s, and take the definition of the IPCC 2022 and of Wiedmann and Minx, 2008. They advance two ideal properties of a carbobn footprint measure framework :\n\n\ncomprehensiveness : the system should take into account direct and indirect emissions of economic activities.\nexclusivity : the system should not have double-counting.\n\n\nThey recall the importance of the individual carbon footprint concept."
+  },
+  {
+    "objectID": "summary.html#consumption-based-approaches-pp.",
+    "href": "summary.html#consumption-based-approaches-pp.",
+    "title": "Abstract (p.0)",
+    "section": "2.2. COnsumption-based approaches (pp.)",
+    "text": "2.2. COnsumption-based approaches (pp.)\n\nThe authors advance that the underlying assumption of the consumption-based appraoches of the measure of carbon footprint is that “individuals express their preferences through consumption (…), thereby guiding resource allocation in the economy” (p.5).\nThey recall that consumers-centered approaches are relevant to highlight international life-style discrepancies.\nThey underly the fact that British Petroleum (BP) was one of the first to push forward this concept of individual carbon footprint and remind that “other interests may have played a role” (p.6).\nThey also advance that the country-level studies of carbon footprint were a product of the extension of the consumption-centered approach. They mention the Léontieff method and the development of sectorial coefficients of pollution-per-currency-unit (send a message to Jonathan pour qu’il me file la référence de la critique de cet aspect des statistiques de Chancel).\nThey remind a key finding of Chancel and Piketty (2015) : carbon inequalities rised within countries and declined across countries."
+  },
+  {
+    "objectID": "summary.html#critique-of-the-consumption-based-approach-pp.6-7",
+    "href": "summary.html#critique-of-the-consumption-based-approach-pp.6-7",
+    "title": "Abstract (p.0)",
+    "section": "2.3. Critique of the consumption-based approach (pp.6-7)",
+    "text": "2.3. Critique of the consumption-based approach (pp.6-7)\n26-28. The authors advance that the consumption-based approach oversttes the weight of individual choices on the economy. For that, they advance :\n\nMarket failures, such as monopoly or the impossibility to get carbon-free products.\nMarkup in the prices, that make individual changes impossible due to budget constraints.\nInformation asymmetries (Akerlof, Rothschild… (p.6))\nPollution from production does not only serve consumption, because decision power in the production process also fives utility to the producer.\n\n\n\n\n\n\n\nCaution\n\n\n\nThe third reason seems to be more name dropping than anything else. The mentioned articles underly the presence of information asymmetry, but the text does not explain how the information asymmetry affects the carbon emissions. The fourth point could be interesting for a micro-foundation of the reasoning."
+  },
+  {
+    "objectID": "summary.html#production-based-approaches-and-methods-of-shared-attribution-pp.7-",
+    "href": "summary.html#production-based-approaches-and-methods-of-shared-attribution-pp.7-",
+    "title": "Abstract (p.0)",
+    "section": "2.4. Production-based approaches and methods of shared attribution (pp.7-)",
+    "text": "2.4. Production-based approaches and methods of shared attribution (pp.7-)\n\nTo answer the shortcomings of the consumption-based approach, an alternative has been the production-based approach, that is centered around the emissions of producing firms.\n\n30-32. The authors propose to go from firm emissions to individuals emissions by focusing on the individuals running the firm.\n\nThe authors then mention the share attribution methods, that focus on dividing emissions across the members of the production chain depending on thei added value (the reference seems to be Lenzen et al., 2007), the rest being attributed to the consumer. An alternative would be to divide emission by economic surplus. Both methods split the emissions between producers and consumers. They mention that the main inconvenient of this approach is that it requires data at an aggregated level, which is excluded for individual investors.\nThey also mention income-based carbon accounting, by linkning emissions of production to the income received by individuals that participate in the production process, either by working or having capital. They mention that to the best of their knowledge, only two studies of this sort exist (among which a pepr of Pottier p.9).\n\n\n\n\n\n\n\nWarning\n\n\n\nThis last approach seems very close to what they are doing, except that it does not seem to involve distributions and national accounting."
+  },
+  {
+    "objectID": "summary.html#carbon-emissions-of-individual-investment-portfolios",
+    "href": "summary.html#carbon-emissions-of-individual-investment-portfolios",
+    "title": "Abstract (p.0)",
+    "section": "2.5. Carbon emissions of individual investment portfolios",
+    "text": "2.5. Carbon emissions of individual investment portfolios\nThey here mention the GHG protocol and a similar initiative : the Partnership for Carbon Accounting Financials (PCAF). They however advance that :\n\nThere is no consensus in the way of carbon accounting.\nThese estimates are not macro-consistent.\n\n\n\n\n\n\n\nWarning\n\n\n\nI very much doubt the first point. The second point is what really matters in the article."
+  },
+  {
+    "objectID": "summary.html#distributional-national-and-environmental-accounts-pp.-10",
+    "href": "summary.html#distributional-national-and-environmental-accounts-pp.-10",
+    "title": "Abstract (p.0)",
+    "section": "2.6. Distributional national and environmental accounts (pp.-10)",
+    "text": "2.6. Distributional national and environmental accounts (pp.-10)\n36-38 : The authors advance that micro-founded datasets about national accounts have known a good improvement in the recent years, notably with the Distributional National Accounts (DINA). At the same time, no micro-macro consistent data exist for environmental pollution. Therefore, they base themselves on the DINA framework to construct a micro-macro consistent dataset for income, wealth, and emissions.\n\n\n\n\n\n\nWarning\n\n\n\nMy main concern here is that the usual critiques of the DINA framework could invalidate the data constructed on the DINA framework.\nAlso, what do they exactly mean with micro-macro founded in this context ? Does it refer to the exclusivity criterium of the accounting system, defined in the 19 paragraph ? This confusion should be cleared."
   }
 ]
