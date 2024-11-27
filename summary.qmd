@@ -271,4 +271,101 @@ For the three countries, they use :
 
 ### Emissions data
 
-64.
+64. Fot data on emissions, the authors use EUrostat for France and Germany, and the OECD for the USA. 
+They only take the total of scope 1 emissions for all industries. 
+
+65. They also want to associate households electricity consumption carbon footprint to the households directly, and not transfer it to the owners of energy producer firms for example. In order to do so, they use extra data : 
+
+- For Germany, they use the national environmental economic accounts,
+- For France, they use the National Energy Balance,
+- For the USA, they use the monthly energy review tables. 
+
+66. In 64, there are only direct emissions. However, the authors are also interested by indirect emissions, "necessary to satisfy final demande" (p.17). To do so, they use a dataset from the FIGARO (Full International and Global Accounts for Research in input-Output). This dataset is based on input-output tables of industries and compute the "carbon footprint linked to final demand categories", i.e. among households, the government, gross fixed capital formation (the dataset includes 45 countries plus a category "the rest of the world").  Since the dataset only accounts for dioxyde carbon, and not for other GHG emissions, they rescale emissions to estimate other GHG emissions also. 
+
+::: {.callout-warning}
+They refer to appendix I, B.10 for more details on this point. 
+
+I think it is important to be able to present the methodology of 64 in detail, and to know how to explain what an inpu-output table is. Check page 17.
+:::
+
+### Emission inequality data from the literature 
+
+67. To take the distribution of direct households emissions and consumption-based emissions, they use the following work : 
+
+- For France, Malliet 2020,
+- For Germany, Hardadi et al., 2021, 
+- FOr the USA, Starr et al., 2023a. 
+
+They refer to the appendix for more details on those papers. 
+
+### Cross-border investment data
+
+68. For the emission intensity of cross border investment, they use the following datasets : 
+
+- EU-Finflows for financial investment, 
+- EU-EDGAR for emission intensity.
+
+## 3.3. Methodology 
+
+69. The authors say that they first produce extended aggregate accounts as a "first step" for the ownership-based and mix-based approaches. For these, one need emissions from capital. Here, I note that "macroeconomic environmental accounts" is just a fnacy name for linkage from emissions to institutional sectors. 
+
+### 3.3.1 Extended aggregate environmental and economic accounts 
+
+70. The difference between the usual and extended accounts is that : 
+
+- in the usual accounts, emissions are linked to industries, 
+- in the extended accounts, emissions are linked to institutional sectors. 
+
+71. The novelty is thus the attribution to the institutional sectors. They also mention that they distringuish the type of capital for the industry. 
+
+72. The authors say that they first do the accounts for the ownership-based approach, then for the mix-based approach. Two different versions of the accounts are thus necessary. 
+
+73-82. Basically, the do as in Figure 2, page 21 : 
+
+![Attribution of emissions to economic sectors in the ownership-based approach](Figure_2.png)
+
+79. They dedicate a specific paragraph to finding proxy for emissions linked to foreign investment, that they get through the EU-Finflow and EU-EDGAR datasets.
+
+The results of this first step are to be seen in the Figure 3, page 23 : 
+
+![Total national emissions in million tonnes according to the three approaches](Figure_3.png)
+
+We note here that those are national emissions, i.e. aggregated between households, the government, and corporate groups. 
+
+### 3.3.2 Distributional environmental accounts 
+
+84-85. For capital emissions, they use wealth distribution and the distribution of assets along this wealth distribution (4 different types) to link emissions to individuals. They mention again that some problems exist with the HFCS data. The 4 different types of assets are : 
+
+- housing, 
+- directly owned business assts, 
+- pension and life insurance assets, 
+- equity
+
+86-87 . For consumption-based emissions, they use estimate from Malliet, Hardadi, and Starr, as mentioned in 67. 
+
+::: {.callout-warning}
+I don't think I understand what is meant when they mention the constant elasticity parameter in paragraph 87.
+:::
+
+88. They use a generalized Pareto interpolation method to deal with the lack of data points from the papers. For the HFCS,  they assume constant elasticity at the top of the distribution (p.25) to deal with the problems they already mentioned about this data. 
+
+#### Distributing government emissions
+
+90-92. They present a benchmark (see 45, page 12), a flat version (uniform redistribution), and a version where government emissions are excluded. 
+
+The results they obtain are to be seen in Figure 4, page 25 : 
+
+![Top 10% emission shares depending on allocation method for government emissions](Figure_4.png)
+
+::: {.callout-warning}
+- We should be able to comment this figure.
+- We should not forget that this is only the top 10% emissions shares.
+:::
+
+# 4. The Carbon Footprint of Capital 
+
+## 4.1. Capital emissions by industry and institutional sector
+
+## 4.2. capital emissions by asset class 
+
+## 4.3. the role of foreign capital in national emissions
