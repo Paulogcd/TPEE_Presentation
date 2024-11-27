@@ -149,5 +149,126 @@ Also, what do they exactly mean with micro-macro founded in this context ? Does 
 
 :::
 
-# 3. Data Sources and Methodology
+# 3. Data Sources and Methodology (p.10)
 
+39. Theu authors explain that this part has three sections : 
+
+- Conceptual framework : 3 carbon footprint approaches. 
+- Data sources 
+- Methodology :
+    - extended aggregate environmental and economic acounts,
+    - distributional environmental accounts
+ 
+ ::: {.callout-warning}
+
+ They make a reference to the IPCC 2022. Is is the same as paragraph 19 ? 
+  
+:::
+
+## 3.1. Conceptual framework : Three Carbon Footprint Approaches
+
+40. THey develop 3 approahces : 
+
+- ownership-based 
+- consumption-based
+- mixed-based 
+
+They refer to Appendix I, section C1 for a more detailed definition of each approach. 
+
+### Ownership-based approach 
+
+41. In this approach, theyattribute all scope 1 emissions (i.e. all direct emissions) to the owners of the firm. 
+Owning a firm can be done through holding corporate equity (in proportion with the share held among the total capital). 
+Owning a firm can also be done directly, for example for self entrepreneur. 
+
+42. This simple rule allows to "overcome" difficulties from the linkage of a stock (wealth) with flow (emissions). 
+They link emissions to production, to cpital, to owner, that can be households, government, corporations, or abroad agents. 
+
+43. They only take direct emissions to comply with the exclusivity criterium. Also, they only take into account money that gives ownership-rights, and not purely financial assets. 
+
+44. DIrect households emissions are simply linked to the households in this method. 
+
+45. When emissions are due to capital owned by the government, they still attribute them to individuals.
+All emissions that are related to the health and education sectors are uniformly attributed to all citizen, and emissions from all other sectors are attributed proportionally to the income. 
+
+46. If a firm is operating abroad, but the owner is from the country of interest, the emissions are linked to him in this ownership-based approach.
+
+47. The authors then compare their approach with the GHG and PCAF protocol. THey identify two main differences : 
+
+- First, the other initiatives attribute emissions to purely financial assets, in opposition to their approach. 
+- Second, the other initiatives are not individual and exclusive. All emissions (direct and indirect) are attributed to one asset, and not one individual. 
+
+:::{.callout-warning}
+I am not sure about the PCAF, but the GHG protocol differenciates scope 1,2 and 3. 
+In this sense, one could choose to select the scope 1 emissions only. 
+I don't see how the GHG would not be exclusive then.
+:::
+
+48. Still comparing the GHG and PCAF to their approaches, the owerniship approach has the closest results to them. 
+
+### Mixed-based approach 
+
+49. In their mixed-based approach, the authors attribute capital formation emissions to investors (or owners) and the rest of emissions to consumers. 
+
+50. They use this difference between money to produce and money invested to reproduce capital of the firms, partially because this differenciation is available in the national accounts. Also, while money to produce production is "demanded" by consumers, money invested is "demanded" by the firm. 
+
+51. The authors mention that they use a multi-regional input-output model, in which they separate : 
+
+- gross fixed capital formation emissions 
+- final households emisions 
+- government consumption emissions
+
+::: {.callout-warning}
+What is a "multi-refional input-output model" ?
+:::
+
+52. In this approach, more is attributed to the final consumers than in the previous approach. 
+Also, for the government emissions, they use the same strategy as in the ownership approach. 
+
+53. The authors make the distinction between net and gross capital formation. 
+In the gross capital formation is included the replacement of machines, and the buying of new machines (the net capital formation). 
+In other words, gross capital formation investment is the addition of the replacement and investment. 
+The authors decide to attribute gross capital formation because only taking net would attribute the difference to the final consumers. 
+Also, net and gross capital formation have different intensities, so this distinction is important for the results. 
+
+:::{.callout-warning}
+I am missing something in the paragraph 53.
+:::
+
+54-55. THe authors recall the existence of the value-added approach and of the income-based approach. THeir point is : 
+
+- The value-added approach is too difficult to implement if we do not have an aggregate vision of data. 
+- The income-based approach is sensitive to manipulation from the firm. It would be beneficial for the firm to for example delay profit flow, making the workers responsible for all its emissions instead of the owners.
+
+### Consumption-based approach 
+
+56. To see strengths and weaknesses of this approach, check paragraphs (21-28).
+
+57. The authors warn that the ownership appraoch (1) and the consumption and mixed-based approaches (2) have different total emissions. Indeed, some are owners of foreign firms, and some consume from foreign firms. 
+
+58. THe authors advance that those approaches are complementary to each other and do a paralel with studying social inequalities. one must not only study the differences in consumption, but also in income and wealth to understand these inequalities. 
+
+## 3.2. Data sources 
+
+### Wealth data 
+
+60. For France and Germany, the authors take the Household Finance and COnsumption Survey (HFCS), which has the wealth distribution and the asset owned along this distribution. 
+For the US, they use the Distributional National Accounts (DINA) data (Piketty et al., 2018). Those are micro-files that include tax, survey, and national accounts data. 
+
+61. The authors mention that there exist a lot of problems with HFCS data, for example they do not take into account the wealth of the richest part of the distribution. In this sense, they do proceed to correction of the HFCS data. 
+
+62. The corrections are essentially a re-weighting approach based on the distribution of the World Inequalitye Database (WID). They fix weights so that they get the same distribution as in the WID. They assume however that the HFCS has correct information about the holding of assets along the wealth distribution. 
+They add that the DINA files do not require corrections. 
+
+### Macroeconomic capital stock and balance sheet data
+
+63. To get these data, they link emissions to industries, and then to institutional sectors (households, government, corporations, and foreign firms). To do so, they take data from Eurostat for France and Germany. For the USA, they take data from the OECD. 
+For the three countries, they use : 
+
+- Stock of fixed assets by industry and year. 
+- Stock of fixed assets by institutional sector. 
+- Stock of financial liabilities by institutional sector and year.
+
+### Emissions data
+
+64.
