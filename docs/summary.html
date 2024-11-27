@@ -139,7 +139,20 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#wealth-data" id="toc-wealth-data" class="nav-link" data-scroll-target="#wealth-data">Wealth data</a></li>
   <li><a href="#macroeconomic-capital-stock-and-balance-sheet-data" id="toc-macroeconomic-capital-stock-and-balance-sheet-data" class="nav-link" data-scroll-target="#macroeconomic-capital-stock-and-balance-sheet-data">Macroeconomic capital stock and balance sheet data</a></li>
   <li><a href="#emissions-data" id="toc-emissions-data" class="nav-link" data-scroll-target="#emissions-data">Emissions data</a></li>
+  <li><a href="#emission-inequality-data-from-the-literature" id="toc-emission-inequality-data-from-the-literature" class="nav-link" data-scroll-target="#emission-inequality-data-from-the-literature">Emission inequality data from the literature</a></li>
+  <li><a href="#cross-border-investment-data" id="toc-cross-border-investment-data" class="nav-link" data-scroll-target="#cross-border-investment-data">Cross-border investment data</a></li>
   </ul></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">3.3. Methodology</a>
+  <ul class="collapse">
+  <li><a href="#extended-aggregate-environmental-and-economic-accounts" id="toc-extended-aggregate-environmental-and-economic-accounts" class="nav-link" data-scroll-target="#extended-aggregate-environmental-and-economic-accounts">3.3.1 Extended aggregate environmental and economic accounts</a></li>
+  <li><a href="#distributional-environmental-accounts" id="toc-distributional-environmental-accounts" class="nav-link" data-scroll-target="#distributional-environmental-accounts">3.3.2 Distributional environmental accounts</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#the-carbon-footprint-of-capital" id="toc-the-carbon-footprint-of-capital" class="nav-link" data-scroll-target="#the-carbon-footprint-of-capital">4. The Carbon Footprint of Capital</a>
+  <ul class="collapse">
+  <li><a href="#capital-emissions-by-industry-and-institutional-sector" id="toc-capital-emissions-by-industry-and-institutional-sector" class="nav-link" data-scroll-target="#capital-emissions-by-industry-and-institutional-sector">4.1. Capital emissions by industry and institutional sector</a></li>
+  <li><a href="#capital-emissions-by-asset-class" id="toc-capital-emissions-by-asset-class" class="nav-link" data-scroll-target="#capital-emissions-by-asset-class">4.2. capital emissions by asset class</a></li>
+  <li><a href="#the-role-of-foreign-capital-in-national-emissions" id="toc-the-role-of-foreign-capital-in-national-emissions" class="nav-link" data-scroll-target="#the-role-of-foreign-capital-in-national-emissions">4.3. the role of foreign capital in national emissions</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -494,11 +507,160 @@ Warning
 <section id="emissions-data" class="level3">
 <h3 class="anchored" data-anchor-id="emissions-data">Emissions data</h3>
 <ol start="64" type="1">
-<li></li>
+<li><p>Fot data on emissions, the authors use EUrostat for France and Germany, and the OECD for the USA. They only take the total of scope 1 emissions for all industries.</p></li>
+<li><p>They also want to associate households electricity consumption carbon footprint to the households directly, and not transfer it to the owners of energy producer firms for example. In order to do so, they use extra data :</p></li>
 </ol>
-
-
+<ul>
+<li>For Germany, they use the national environmental economic accounts,</li>
+<li>For France, they use the National Energy Balance,</li>
+<li>For the USA, they use the monthly energy review tables.</li>
+</ul>
+<ol start="66" type="1">
+<li>In 64, there are only direct emissions. However, the authors are also interested by indirect emissions, “necessary to satisfy final demande” (p.17). To do so, they use a dataset from the FIGARO (Full International and Global Accounts for Research in input-Output). This dataset is based on input-output tables of industries and compute the “carbon footprint linked to final demand categories”, i.e.&nbsp;among households, the government, gross fixed capital formation (the dataset includes 45 countries plus a category “the rest of the world”). Since the dataset only accounts for dioxyde carbon, and not for other GHG emissions, they rescale emissions to estimate other GHG emissions also.</li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>They refer to appendix I, B.10 for more details on this point.</p>
+<p>I think it is important to be able to present the methodology of 64 in detail, and to know how to explain what an inpu-output table is. Check page 17.</p>
+</div>
+</div>
 </section>
+<section id="emission-inequality-data-from-the-literature" class="level3">
+<h3 class="anchored" data-anchor-id="emission-inequality-data-from-the-literature">Emission inequality data from the literature</h3>
+<ol start="67" type="1">
+<li>To take the distribution of direct households emissions and consumption-based emissions, they use the following work :</li>
+</ol>
+<ul>
+<li>For France, Malliet 2020,</li>
+<li>For Germany, Hardadi et al., 2021,</li>
+<li>FOr the USA, Starr et al., 2023a.</li>
+</ul>
+<p>They refer to the appendix for more details on those papers.</p>
+</section>
+<section id="cross-border-investment-data" class="level3">
+<h3 class="anchored" data-anchor-id="cross-border-investment-data">Cross-border investment data</h3>
+<ol start="68" type="1">
+<li>For the emission intensity of cross border investment, they use the following datasets :</li>
+</ol>
+<ul>
+<li>EU-Finflows for financial investment,</li>
+<li>EU-EDGAR for emission intensity.</li>
+</ul>
+</section>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">3.3. Methodology</h2>
+<ol start="69" type="1">
+<li>The authors say that they first produce extended aggregate accounts as a “first step” for the ownership-based and mix-based approaches. For these, one need emissions from capital. Here, I note that “macroeconomic environmental accounts” is just a fnacy name for linkage from emissions to institutional sectors.</li>
+</ol>
+<section id="extended-aggregate-environmental-and-economic-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="extended-aggregate-environmental-and-economic-accounts">3.3.1 Extended aggregate environmental and economic accounts</h3>
+<ol start="70" type="1">
+<li>The difference between the usual and extended accounts is that :</li>
+</ol>
+<ul>
+<li>in the usual accounts, emissions are linked to industries,</li>
+<li>in the extended accounts, emissions are linked to institutional sectors.</li>
+</ul>
+<ol start="71" type="1">
+<li><p>The novelty is thus the attribution to the institutional sectors. They also mention that they distringuish the type of capital for the industry.</p></li>
+<li><p>The authors say that they first do the accounts for the ownership-based approach, then for the mix-based approach. Two different versions of the accounts are thus necessary.</p></li>
+</ol>
+<p>73-82. Basically, the do as in Figure 2, page 21 :</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure_2.png" class="img-fluid figure-img"></p>
+<figcaption>Attribution of emissions to economic sectors in the ownership-based approach</figcaption>
+</figure>
+</div>
+<ol start="79" type="1">
+<li>They dedicate a specific paragraph to finding proxy for emissions linked to foreign investment, that they get through the EU-Finflow and EU-EDGAR datasets.</li>
+</ol>
+<p>The results of this first step are to be seen in the Figure 3, page 23 :</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure_3.png" class="img-fluid figure-img"></p>
+<figcaption>Total national emissions in million tonnes according to the three approaches</figcaption>
+</figure>
+</div>
+<p>We note here that those are national emissions, i.e.&nbsp;aggregated between households, the government, and corporate groups.</p>
+</section>
+<section id="distributional-environmental-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="distributional-environmental-accounts">3.3.2 Distributional environmental accounts</h3>
+<p>84-85. For capital emissions, they use wealth distribution and the distribution of assets along this wealth distribution (4 different types) to link emissions to individuals. They mention again that some problems exist with the HFCS data. The 4 different types of assets are :</p>
+<ul>
+<li>housing,</li>
+<li>directly owned business assts,</li>
+<li>pension and life insurance assets,</li>
+<li>equity</li>
+</ul>
+<p>86-87 . For consumption-based emissions, they use estimate from Malliet, Hardadi, and Starr, as mentioned in 67.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I don’t think I understand what is meant when they mention the constant elasticity parameter in paragraph 87.</p>
+</div>
+</div>
+<ol start="88" type="1">
+<li>They use a generalized Pareto interpolation method to deal with the lack of data points from the papers. For the HFCS, they assume constant elasticity at the top of the distribution (p.25) to deal with the problems they already mentioned about this data.</li>
+</ol>
+<section id="distributing-government-emissions" class="level4">
+<h4 class="anchored" data-anchor-id="distributing-government-emissions">Distributing government emissions</h4>
+<p>90-92. They present a benchmark (see 45, page 12), a flat version (uniform redistribution), and a version where government emissions are excluded.</p>
+<p>The results they obtain are to be seen in Figure 4, page 25 :</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure_4.png" class="img-fluid figure-img"></p>
+<figcaption>Top 10% emission shares depending on allocation method for government emissions</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>We should be able to comment this figure.</li>
+<li>We should not forget that this is only the top 10% emissions shares.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="the-carbon-footprint-of-capital" class="level1">
+<h1>4. The Carbon Footprint of Capital</h1>
+<section id="capital-emissions-by-industry-and-institutional-sector" class="level2">
+<h2 class="anchored" data-anchor-id="capital-emissions-by-industry-and-institutional-sector">4.1. Capital emissions by industry and institutional sector</h2>
+</section>
+<section id="capital-emissions-by-asset-class" class="level2">
+<h2 class="anchored" data-anchor-id="capital-emissions-by-asset-class">4.2. capital emissions by asset class</h2>
+</section>
+<section id="the-role-of-foreign-capital-in-national-emissions" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-foreign-capital-in-national-emissions">4.3. the role of foreign capital in national emissions</h2>
+
+
 </section>
 </section>
 
