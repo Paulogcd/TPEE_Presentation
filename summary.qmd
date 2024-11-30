@@ -552,6 +552,61 @@ A difficulty is that "no broadly defined individual footprinting appraoch can fu
 
 The chosen approach could vary in function of $\alpha$ and $\beta$.
 
+136. More studies to find out more about $\alpha$ and $\beta$ would be necessary, to allow for a better definition of the chosen approach. 
+
+137. The authors also mention that the role of the government is underestimated here, and that one could study the role of policy making in the process of government emission distribution (they mention the example of the lack of public transportation). 
+
+## 6.3. How our estimates compare to earlier work. 
+
+140. They say that Greepeace 2020 is the closest work to their ownership-based approach. However : 
+
+- It is not macro-consistent. 
+- They have less good data of wealth / income distribution. 
+
+141. Compared to the mixed-based approach, Chancel 2022 is closer. However : 
+
+- It has less prices data on emissions. 
+- It has no data on joint income / wealth distribution. 
+- It has less flexibility on government role. 
+- It has less data on wealth distribution. 
+
+142. Compared to Malliet, Starr, Hardadi, in those studies : 
+- Units are not the same, 
+- The role of government is not the same, 
+- income / wealth may be in different units : net wealth, pre/post-tax...
+
+143. FOcusing on the country-level, they are able to reproduce important findings, such as : 
+
+- wealthy nations import more embedded CO2 emissions than they export (France, Germany)
+- emissions due to capital owned are more important than territorial emissions (France, Germany)
+- the inverse is true for the US, "which appears to be consistent with the negative net foreign asset position of the country" (p.45).
+
+## 6.4. Stylized facts on inequality and emissions
+
+144. First of all, wealth is positively correlated with emissions. They here mention the "Environmental Kuznets Curve", and say that their study goes against it. 
+
+145. In the consumption-based approach, carbon intensity may be higher for the poorest, because less intensive products are costlier, but carbon emissions are still higher. 
+
+146. THe opposite is tru for wealth emissions, which are more concentrated than wealth itself. Indeed, carbon intensity is very high for the top of the distribution... 
+
+## 6.5. Distributional properties and revenue estimates for a carbon wealth tax 
+
+147-148. Taxation on consumption and goods are propblematic, because of the focus on consumption...
+
+149. They mention figure 9 (p.49), that presents the progressivity of a 150 euro/dollar per tonne on different types of emissions. Basically, tax on consumption and private transport are regressive, while tax on capital is progressive. 
+
+::: {.callout-warning}
+
+They exclude the bottom 50%...
+
+You cannot write "the graph demonstrates..." (p.47) and exclude the bottom 50% because of the explanation given in page 49.
+
+:::
+
+150. They propose the lecture of the figure 10 (page 50), in which they simulate the impact of tax on tonne of COE2. They advance it is not much. 
+
+151. They propose figure 11 (page 50), in which they compare tax on net wealth and tax on cpaital emissions. They advance it is not much. 
+
 ## 6.3. How our estimates compare to earlier work (pp.44-45)
 
 ## 6.4 Stylized facts on inequality and emissions (p. 46)
