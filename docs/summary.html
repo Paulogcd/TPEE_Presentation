@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -119,41 +148,50 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introduction-pp.1-4" id="toc-introduction-pp.1-4" class="nav-link" data-scroll-target="#introduction-pp.1-4">1 Introduction (pp.1-4)</a></li>
   <li><a href="#related-literature-pp.4-10" id="toc-related-literature-pp.4-10" class="nav-link" data-scroll-target="#related-literature-pp.4-10">2 Related Literature (pp.4-10)</a>
   <ul class="collapse">
-  <li><a href="#origins-pp." id="toc-origins-pp." class="nav-link" data-scroll-target="#origins-pp.">2.1. Origins (pp.)</a></li>
-  <li><a href="#consumption-based-approaches-pp." id="toc-consumption-based-approaches-pp." class="nav-link" data-scroll-target="#consumption-based-approaches-pp.">2.2. COnsumption-based approaches (pp.)</a></li>
+  <li><a href="#origins-p.-5" id="toc-origins-p.-5" class="nav-link" data-scroll-target="#origins-p.-5">2.1. Origins (p.&nbsp;5)</a></li>
+  <li><a href="#consumption-based-approaches-pp.5-6" id="toc-consumption-based-approaches-pp.5-6" class="nav-link" data-scroll-target="#consumption-based-approaches-pp.5-6">2.2. COnsumption-based approaches (pp.5-6)</a></li>
   <li><a href="#critique-of-the-consumption-based-approach-pp.6-7" id="toc-critique-of-the-consumption-based-approach-pp.6-7" class="nav-link" data-scroll-target="#critique-of-the-consumption-based-approach-pp.6-7">2.3. Critique of the consumption-based approach (pp.6-7)</a></li>
-  <li><a href="#production-based-approaches-and-methods-of-shared-attribution-pp.7-" id="toc-production-based-approaches-and-methods-of-shared-attribution-pp.7-" class="nav-link" data-scroll-target="#production-based-approaches-and-methods-of-shared-attribution-pp.7-">2.4. Production-based approaches and methods of shared attribution (pp.7-)</a></li>
-  <li><a href="#carbon-emissions-of-individual-investment-portfolios" id="toc-carbon-emissions-of-individual-investment-portfolios" class="nav-link" data-scroll-target="#carbon-emissions-of-individual-investment-portfolios">2.5. Carbon emissions of individual investment portfolios</a></li>
-  <li><a href="#distributional-national-and-environmental-accounts-pp.-10" id="toc-distributional-national-and-environmental-accounts-pp.-10" class="nav-link" data-scroll-target="#distributional-national-and-environmental-accounts-pp.-10">2.6. Distributional national and environmental accounts (pp.-10)</a></li>
+  <li><a href="#production-based-approaches-and-methods-of-shared-attribution-pp.7-9" id="toc-production-based-approaches-and-methods-of-shared-attribution-pp.7-9" class="nav-link" data-scroll-target="#production-based-approaches-and-methods-of-shared-attribution-pp.7-9">2.4. Production-based approaches and methods of shared attribution (pp.7-9)</a></li>
+  <li><a href="#carbon-emissions-of-individual-investment-portfolios-p.9" id="toc-carbon-emissions-of-individual-investment-portfolios-p.9" class="nav-link" data-scroll-target="#carbon-emissions-of-individual-investment-portfolios-p.9">2.5. Carbon emissions of individual investment portfolios (p.9)</a></li>
+  <li><a href="#distributional-national-and-environmental-accounts-pp.9-10" id="toc-distributional-national-and-environmental-accounts-pp.9-10" class="nav-link" data-scroll-target="#distributional-national-and-environmental-accounts-pp.9-10">2.6. Distributional national and environmental accounts (pp.9-10)</a></li>
   </ul></li>
-  <li><a href="#data-sources-and-methodology-p.10" id="toc-data-sources-and-methodology-p.10" class="nav-link" data-scroll-target="#data-sources-and-methodology-p.10">3. Data Sources and Methodology (p.10)</a>
+  <li><a href="#data-sources-and-methodology-pp.10-26" id="toc-data-sources-and-methodology-pp.10-26" class="nav-link" data-scroll-target="#data-sources-and-methodology-pp.10-26">3. Data Sources and Methodology (pp.10-26)</a>
   <ul class="collapse">
-  <li><a href="#conceptual-framework-three-carbon-footprint-approaches" id="toc-conceptual-framework-three-carbon-footprint-approaches" class="nav-link" data-scroll-target="#conceptual-framework-three-carbon-footprint-approaches">3.1. Conceptual framework : Three Carbon Footprint Approaches</a>
+  <li><a href="#conceptual-framework-three-carbon-footprint-approaches-pp.10-15" id="toc-conceptual-framework-three-carbon-footprint-approaches-pp.10-15" class="nav-link" data-scroll-target="#conceptual-framework-three-carbon-footprint-approaches-pp.10-15">3.1. Conceptual framework : Three Carbon Footprint Approaches (pp.10-15)</a></li>
+  <li><a href="#data-sources-pp.15-18" id="toc-data-sources-pp.15-18" class="nav-link" data-scroll-target="#data-sources-pp.15-18">3.2. Data sources (pp.15-18)</a>
   <ul class="collapse">
-  <li><a href="#ownership-based-approach" id="toc-ownership-based-approach" class="nav-link" data-scroll-target="#ownership-based-approach">Ownership-based approach</a></li>
-  <li><a href="#mixed-based-approach" id="toc-mixed-based-approach" class="nav-link" data-scroll-target="#mixed-based-approach">Mixed-based approach</a></li>
-  <li><a href="#consumption-based-approach" id="toc-consumption-based-approach" class="nav-link" data-scroll-target="#consumption-based-approach">Consumption-based approach</a></li>
-  </ul></li>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">3.2. Data sources</a>
-  <ul class="collapse">
-  <li><a href="#wealth-data" id="toc-wealth-data" class="nav-link" data-scroll-target="#wealth-data">Wealth data</a></li>
   <li><a href="#macroeconomic-capital-stock-and-balance-sheet-data" id="toc-macroeconomic-capital-stock-and-balance-sheet-data" class="nav-link" data-scroll-target="#macroeconomic-capital-stock-and-balance-sheet-data">Macroeconomic capital stock and balance sheet data</a></li>
   <li><a href="#emissions-data" id="toc-emissions-data" class="nav-link" data-scroll-target="#emissions-data">Emissions data</a></li>
   <li><a href="#emission-inequality-data-from-the-literature" id="toc-emission-inequality-data-from-the-literature" class="nav-link" data-scroll-target="#emission-inequality-data-from-the-literature">Emission inequality data from the literature</a></li>
   <li><a href="#cross-border-investment-data" id="toc-cross-border-investment-data" class="nav-link" data-scroll-target="#cross-border-investment-data">Cross-border investment data</a></li>
   </ul></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">3.3. Methodology</a>
+  <li><a href="#methodology-pp.18-26" id="toc-methodology-pp.18-26" class="nav-link" data-scroll-target="#methodology-pp.18-26">3.3. Methodology (pp.18-26)</a>
   <ul class="collapse">
-  <li><a href="#extended-aggregate-environmental-and-economic-accounts" id="toc-extended-aggregate-environmental-and-economic-accounts" class="nav-link" data-scroll-target="#extended-aggregate-environmental-and-economic-accounts">3.3.1 Extended aggregate environmental and economic accounts</a></li>
-  <li><a href="#distributional-environmental-accounts" id="toc-distributional-environmental-accounts" class="nav-link" data-scroll-target="#distributional-environmental-accounts">3.3.2 Distributional environmental accounts</a></li>
+  <li><a href="#step-1-extended-aggregate-environmental-and-economic-accounts-pp.18-23" id="toc-step-1-extended-aggregate-environmental-and-economic-accounts-pp.18-23" class="nav-link" data-scroll-target="#step-1-extended-aggregate-environmental-and-economic-accounts-pp.18-23">3.3.1 Step 1 : Extended aggregate environmental and economic accounts (pp.18-23)</a></li>
+  <li><a href="#step-2-distributional-environmental-accounts-pp.23-26" id="toc-step-2-distributional-environmental-accounts-pp.23-26" class="nav-link" data-scroll-target="#step-2-distributional-environmental-accounts-pp.23-26">3.3.2 Step 2 : Distributional environmental accounts (pp.23-26)</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#the-carbon-footprint-of-capital" id="toc-the-carbon-footprint-of-capital" class="nav-link" data-scroll-target="#the-carbon-footprint-of-capital">4. The Carbon Footprint of Capital</a>
+  <li><a href="#the-carbon-footprint-of-capital-pp.26-31" id="toc-the-carbon-footprint-of-capital-pp.26-31" class="nav-link" data-scroll-target="#the-carbon-footprint-of-capital-pp.26-31">4. The Carbon Footprint of Capital (pp.26-31)</a>
   <ul class="collapse">
-  <li><a href="#capital-emissions-by-industry-and-institutional-sector" id="toc-capital-emissions-by-industry-and-institutional-sector" class="nav-link" data-scroll-target="#capital-emissions-by-industry-and-institutional-sector">4.1. Capital emissions by industry and institutional sector</a></li>
-  <li><a href="#capital-emissions-by-asset-class" id="toc-capital-emissions-by-asset-class" class="nav-link" data-scroll-target="#capital-emissions-by-asset-class">4.2. capital emissions by asset class</a></li>
-  <li><a href="#the-role-of-foreign-capital-in-national-emissions" id="toc-the-role-of-foreign-capital-in-national-emissions" class="nav-link" data-scroll-target="#the-role-of-foreign-capital-in-national-emissions">4.3. the role of foreign capital in national emissions</a></li>
+  <li><a href="#capital-emissions-by-industry-and-institutional-sector-pp.26-28" id="toc-capital-emissions-by-industry-and-institutional-sector-pp.26-28" class="nav-link" data-scroll-target="#capital-emissions-by-industry-and-institutional-sector-pp.26-28">4.1. Capital emissions by industry and institutional sector (pp.26-28)</a></li>
+  <li><a href="#capital-emissions-by-asset-class-pp.29-30" id="toc-capital-emissions-by-asset-class-pp.29-30" class="nav-link" data-scroll-target="#capital-emissions-by-asset-class-pp.29-30">4.2. capital emissions by asset class (pp.29-30)</a></li>
+  <li><a href="#the-role-of-foreign-capital-in-national-emissions-pp.30-31" id="toc-the-role-of-foreign-capital-in-national-emissions-pp.30-31" class="nav-link" data-scroll-target="#the-role-of-foreign-capital-in-national-emissions-pp.30-31">4.3. the role of foreign capital in national emissions (pp.30-31)</a></li>
   </ul></li>
+  <li><a href="#the-distribution-of-carbon-footprints-pp.31-37" id="toc-the-distribution-of-carbon-footprints-pp.31-37" class="nav-link" data-scroll-target="#the-distribution-of-carbon-footprints-pp.31-37">5. The Distribution of Carbon Footprints (pp.31-37)</a></li>
+  <li><a href="#emissions-rise-with-income-and-wealth-pp.31-34" id="toc-emissions-rise-with-income-and-wealth-pp.31-34" class="nav-link" data-scroll-target="#emissions-rise-with-income-and-wealth-pp.31-34">5.1. Emissions rise with income and wealth (pp.31-34)</a>
+  <ul class="collapse">
+  <li><a href="#emissions-intensity-rises-with-wealth" id="toc-emissions-intensity-rises-with-wealth" class="nav-link" data-scroll-target="#emissions-intensity-rises-with-wealth">5.2. Emissions intensity rises with wealth</a></li>
+  <li><a href="#the-weight-of-capital-emissions-among-top-groups" id="toc-the-weight-of-capital-emissions-among-top-groups" class="nav-link" data-scroll-target="#the-weight-of-capital-emissions-among-top-groups">5.3. The weight of capital emissions among top groups</a></li>
+  </ul></li>
+  <li><a href="#discussion-pp.38-51" id="toc-discussion-pp.38-51" class="nav-link" data-scroll-target="#discussion-pp.38-51">6. Discussion (pp.38-51)</a>
+  <ul class="collapse">
+  <li><a href="#sensitivity-of-the-results-to-assumptions-pp.38-39" id="toc-sensitivity-of-the-results-to-assumptions-pp.38-39" class="nav-link" data-scroll-target="#sensitivity-of-the-results-to-assumptions-pp.38-39">6.1. Sensitivity of the results to assumptions (pp.38-39)</a></li>
+  <li><a href="#schope-and-limitations-of-the-data-and-footprinting-approaches-pp.39-44" id="toc-schope-and-limitations-of-the-data-and-footprinting-approaches-pp.39-44" class="nav-link" data-scroll-target="#schope-and-limitations-of-the-data-and-footprinting-approaches-pp.39-44">6.2. Schope and limitations of the data and footprinting approaches (pp.39-44)</a></li>
+  <li><a href="#how-our-estimates-compare-to-earlier-work-pp.44-45" id="toc-how-our-estimates-compare-to-earlier-work-pp.44-45" class="nav-link" data-scroll-target="#how-our-estimates-compare-to-earlier-work-pp.44-45">6.3. How our estimates compare to earlier work (pp.44-45)</a></li>
+  <li><a href="#stylized-facts-on-inequality-and-emissions-p.-46" id="toc-stylized-facts-on-inequality-and-emissions-p.-46" class="nav-link" data-scroll-target="#stylized-facts-on-inequality-and-emissions-p.-46">6.4 Stylized facts on inequality and emissions (p.&nbsp;46)</a></li>
+  <li><a href="#distributional-properties-and-revenue-estimates-for-a-carbon-wealth-tax-pp.46-51" id="toc-distributional-properties-and-revenue-estimates-for-a-carbon-wealth-tax-pp.46-51" class="nav-link" data-scroll-target="#distributional-properties-and-revenue-estimates-for-a-carbon-wealth-tax-pp.46-51">6.5. Distributional properties and revenue estimates for a carbon wealth tax (pp.46-51)</a></li>
+  </ul></li>
+  <li><a href="#conclusion-p.52" id="toc-conclusion-p.52" class="nav-link" data-scroll-target="#conclusion-p.52">7. Conclusion (p.52)</a></li>
   </ul>
 </nav>
     </div>
@@ -256,8 +294,8 @@ Caution
 <ol start="18" type="1">
 <li>They announce to focus on the critiques of the “dominant consumption-centered approach” (p.4) of the current literature.</li>
 </ol>
-<section id="origins-pp." class="level2">
-<h2 class="anchored" data-anchor-id="origins-pp.">2.1. Origins (pp.)</h2>
+<section id="origins-p.-5" class="level2">
+<h2 class="anchored" data-anchor-id="origins-p.-5">2.1. Origins (p.&nbsp;5)</h2>
 <ol start="19" type="1">
 <li>THey identify carbon footprint as a concept developed in the 2000s, and take the definition of the IPCC 2022 and of Wiedmann and Minx, 2008. They advance two ideal properties of a carbobn footprint measure framework :</li>
 </ol>
@@ -269,8 +307,8 @@ Caution
 <li>They recall the importance of the individual carbon footprint concept.</li>
 </ol>
 </section>
-<section id="consumption-based-approaches-pp." class="level2">
-<h2 class="anchored" data-anchor-id="consumption-based-approaches-pp.">2.2. COnsumption-based approaches (pp.)</h2>
+<section id="consumption-based-approaches-pp.5-6" class="level2">
+<h2 class="anchored" data-anchor-id="consumption-based-approaches-pp.5-6">2.2. COnsumption-based approaches (pp.5-6)</h2>
 <ol start="21" type="1">
 <li><p>The authors advance that the underlying assumption of the consumption-based appraoches of the measure of carbon footprint is that “individuals express their preferences through consumption (…), thereby guiding resource allocation in the economy” (p.5).</p></li>
 <li><p>They recall that consumers-centered approaches are relevant to highlight international life-style discrepancies.</p></li>
@@ -302,8 +340,8 @@ Caution
 </div>
 </div>
 </section>
-<section id="production-based-approaches-and-methods-of-shared-attribution-pp.7-" class="level2">
-<h2 class="anchored" data-anchor-id="production-based-approaches-and-methods-of-shared-attribution-pp.7-">2.4. Production-based approaches and methods of shared attribution (pp.7-)</h2>
+<section id="production-based-approaches-and-methods-of-shared-attribution-pp.7-9" class="level2">
+<h2 class="anchored" data-anchor-id="production-based-approaches-and-methods-of-shared-attribution-pp.7-9">2.4. Production-based approaches and methods of shared attribution (pp.7-9)</h2>
 <ol start="29" type="1">
 <li>To answer the shortcomings of the consumption-based approach, an alternative has been the production-based approach, that is centered around the emissions of producing firms.</li>
 </ol>
@@ -326,8 +364,8 @@ Warning
 </div>
 </div>
 </section>
-<section id="carbon-emissions-of-individual-investment-portfolios" class="level2">
-<h2 class="anchored" data-anchor-id="carbon-emissions-of-individual-investment-portfolios">2.5. Carbon emissions of individual investment portfolios</h2>
+<section id="carbon-emissions-of-individual-investment-portfolios-p.9" class="level2">
+<h2 class="anchored" data-anchor-id="carbon-emissions-of-individual-investment-portfolios-p.9">2.5. Carbon emissions of individual investment portfolios (p.9)</h2>
 <p>They here mention the GHG protocol and a similar initiative : the Partnership for Carbon Accounting Financials (PCAF). They however advance that :</p>
 <ul>
 <li>There is no consensus in the way of carbon accounting.</li>
@@ -347,8 +385,8 @@ Warning
 </div>
 </div>
 </section>
-<section id="distributional-national-and-environmental-accounts-pp.-10" class="level2">
-<h2 class="anchored" data-anchor-id="distributional-national-and-environmental-accounts-pp.-10">2.6. Distributional national and environmental accounts (pp.-10)</h2>
+<section id="distributional-national-and-environmental-accounts-pp.9-10" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-national-and-environmental-accounts-pp.9-10">2.6. Distributional national and environmental accounts (pp.9-10)</h2>
 <p>36-38 : The authors advance that micro-founded datasets about national accounts have known a good improvement in the recent years, notably with the Distributional National Accounts (DINA). At the same time, no micro-macro consistent data exist for environmental pollution. Therefore, they base themselves on the DINA framework to construct a micro-macro consistent dataset for income, wealth, and emissions.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -366,10 +404,10 @@ Warning
 </div>
 </section>
 </section>
-<section id="data-sources-and-methodology-p.10" class="level1">
-<h1>3. Data Sources and Methodology (p.10)</h1>
+<section id="data-sources-and-methodology-pp.10-26" class="level1">
+<h1>3. Data Sources and Methodology (pp.10-26)</h1>
 <ol start="39" type="1">
-<li>Theu authors explain that this part has three sections :</li>
+<li>The authors explain that this part has three sections :</li>
 </ol>
 <ul>
 <li>Conceptual framework : 3 carbon footprint approaches.</li>
@@ -380,11 +418,21 @@ Warning
 <li>distributional environmental accounts</li>
 </ul></li>
 </ul>
-<p>::: {.callout-warning}</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>They make a reference to the IPCC 2022. Is is the same as paragraph 19 ?</p>
-<p>:::</p>
-<section id="conceptual-framework-three-carbon-footprint-approaches" class="level2">
-<h2 class="anchored" data-anchor-id="conceptual-framework-three-carbon-footprint-approaches">3.1. Conceptual framework : Three Carbon Footprint Approaches</h2>
+</div>
+</div>
+<section id="conceptual-framework-three-carbon-footprint-approaches-pp.10-15" class="level2">
+<h2 class="anchored" data-anchor-id="conceptual-framework-three-carbon-footprint-approaches-pp.10-15">3.1. Conceptual framework : Three Carbon Footprint Approaches (pp.10-15)</h2>
 <ol start="40" type="1">
 <li>THey develop 3 approahces :</li>
 </ol>
@@ -394,8 +442,8 @@ Warning
 <li>mixed-based</li>
 </ul>
 <p>They refer to Appendix I, section C1 for a more detailed definition of each approach.</p>
-<section id="ownership-based-approach" class="level3">
-<h3 class="anchored" data-anchor-id="ownership-based-approach">Ownership-based approach</h3>
+<section id="ownership-based-approach" class="level4">
+<h4 class="anchored" data-anchor-id="ownership-based-approach">Ownership-based approach</h4>
 <ol start="41" type="1">
 <li><p>In this approach, theyattribute all scope 1 emissions (i.e.&nbsp;all direct emissions) to the owners of the firm. Owning a firm can be done through holding corporate equity (in proportion with the share held among the total capital). Owning a firm can also be done directly, for example for self entrepreneur.</p></li>
 <li><p>This simple rule allows to “overcome” difficulties from the linkage of a stock (wealth) with flow (emissions). They link emissions to production, to cpital, to owner, that can be households, government, corporations, or abroad agents.</p></li>
@@ -426,8 +474,8 @@ Warning
 <li>Still comparing the GHG and PCAF to their approaches, the owerniship approach has the closest results to them.</li>
 </ol>
 </section>
-<section id="mixed-based-approach" class="level3">
-<h3 class="anchored" data-anchor-id="mixed-based-approach">Mixed-based approach</h3>
+<section id="mixed-based-approach" class="level4">
+<h4 class="anchored" data-anchor-id="mixed-based-approach">Mixed-based approach</h4>
 <ol start="49" type="1">
 <li><p>In their mixed-based approach, the authors attribute capital formation emissions to investors (or owners) and the rest of emissions to consumers.</p></li>
 <li><p>They use this difference between money to produce and money invested to reproduce capital of the firms, partially because this differenciation is available in the national accounts. Also, while money to produce production is “demanded” by consumers, money invested is “demanded” by the firm.</p></li>
@@ -474,8 +522,8 @@ Warning
 <li>The income-based approach is sensitive to manipulation from the firm. It would be beneficial for the firm to for example delay profit flow, making the workers responsible for all its emissions instead of the owners.</li>
 </ul>
 </section>
-<section id="consumption-based-approach" class="level3">
-<h3 class="anchored" data-anchor-id="consumption-based-approach">Consumption-based approach</h3>
+<section id="consumption-based-approach" class="level4">
+<h4 class="anchored" data-anchor-id="consumption-based-approach">Consumption-based approach</h4>
 <ol start="56" type="1">
 <li><p>To see strengths and weaknesses of this approach, check paragraphs (21-28).</p></li>
 <li><p>The authors warn that the ownership appraoch (1) and the consumption and mixed-based approaches (2) have different total emissions. Indeed, some are owners of foreign firms, and some consume from foreign firms.</p></li>
@@ -483,10 +531,10 @@ Warning
 </ol>
 </section>
 </section>
-<section id="data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources">3.2. Data sources</h2>
-<section id="wealth-data" class="level3">
-<h3 class="anchored" data-anchor-id="wealth-data">Wealth data</h3>
+<section id="data-sources-pp.15-18" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources-pp.15-18">3.2. Data sources (pp.15-18)</h2>
+<section id="wealth-data" class="level4">
+<h4 class="anchored" data-anchor-id="wealth-data">Wealth data</h4>
 <ol start="60" type="1">
 <li><p>For France and Germany, the authors take the Household Finance and COnsumption Survey (HFCS), which has the wealth distribution and the asset owned along this distribution. For the US, they use the Distributional National Accounts (DINA) data (Piketty et al., 2018). Those are micro-files that include tax, survey, and national accounts data.</p></li>
 <li><p>The authors mention that there exist a lot of problems with HFCS data, for example they do not take into account the wealth of the richest part of the distribution. In this sense, they do proceed to correction of the HFCS data.</p></li>
@@ -556,13 +604,13 @@ Warning
 </ul>
 </section>
 </section>
-<section id="methodology" class="level2">
-<h2 class="anchored" data-anchor-id="methodology">3.3. Methodology</h2>
+<section id="methodology-pp.18-26" class="level2">
+<h2 class="anchored" data-anchor-id="methodology-pp.18-26">3.3. Methodology (pp.18-26)</h2>
 <ol start="69" type="1">
 <li>The authors say that they first produce extended aggregate accounts as a “first step” for the ownership-based and mix-based approaches. For these, one need emissions from capital. Here, I note that “macroeconomic environmental accounts” is just a fnacy name for linkage from emissions to institutional sectors.</li>
 </ol>
-<section id="extended-aggregate-environmental-and-economic-accounts" class="level3">
-<h3 class="anchored" data-anchor-id="extended-aggregate-environmental-and-economic-accounts">3.3.1 Extended aggregate environmental and economic accounts</h3>
+<section id="step-1-extended-aggregate-environmental-and-economic-accounts-pp.18-23" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-extended-aggregate-environmental-and-economic-accounts-pp.18-23">3.3.1 Step 1 : Extended aggregate environmental and economic accounts (pp.18-23)</h3>
 <ol start="70" type="1">
 <li>The difference between the usual and extended accounts is that :</li>
 </ol>
@@ -593,8 +641,8 @@ Warning
 </div>
 <p>We note here that those are national emissions, i.e.&nbsp;aggregated between households, the government, and corporate groups.</p>
 </section>
-<section id="distributional-environmental-accounts" class="level3">
-<h3 class="anchored" data-anchor-id="distributional-environmental-accounts">3.3.2 Distributional environmental accounts</h3>
+<section id="step-2-distributional-environmental-accounts-pp.23-26" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-distributional-environmental-accounts-pp.23-26">3.3.2 Step 2 : Distributional environmental accounts (pp.23-26)</h3>
 <p>84-85. For capital emissions, they use wealth distribution and the distribution of assets along this wealth distribution (4 different types) to link emissions to individuals. They mention again that some problems exist with the HFCS data. The 4 different types of assets are :</p>
 <ul>
 <li>housing,</li>
@@ -649,19 +697,314 @@ Warning
 </section>
 </section>
 </section>
-<section id="the-carbon-footprint-of-capital" class="level1">
-<h1>4. The Carbon Footprint of Capital</h1>
-<section id="capital-emissions-by-industry-and-institutional-sector" class="level2">
-<h2 class="anchored" data-anchor-id="capital-emissions-by-industry-and-institutional-sector">4.1. Capital emissions by industry and institutional sector</h2>
+<section id="the-carbon-footprint-of-capital-pp.26-31" class="level1">
+<h1>4. The Carbon Footprint of Capital (pp.26-31)</h1>
+<section id="capital-emissions-by-industry-and-institutional-sector-pp.26-28" class="level2">
+<h2 class="anchored" data-anchor-id="capital-emissions-by-industry-and-institutional-sector-pp.26-28">4.1. Capital emissions by industry and institutional sector (pp.26-28)</h2>
+<p>The authors present Table 1 (p.28), where they present carbon intensity per industry for France, Germany and the USA in two different approaches : mix-based and ownership-based. The mixed approach attributes emissions to industry only through capital formation / investment emissions, while the ownership approach attributes all emissions of industrial sectors to industries.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Table_1.png" class="img-fluid figure-img"></p>
+<figcaption>Emission intensities by industry groups</figcaption>
+</figure>
+</div>
+<p>94-97. The authors comment on several observations from the Table 1 (p.28) :</p>
+<ul>
+<li>Most emission come from :
+<ul>
+<li>manufacturing for France and Germany,</li>
+<li>agriculture and mining for the USA.</li>
+</ul></li>
+<li>The most intensive sectors are :
+<ul>
+<li>First place : agriculture and mining for France, Germany, and the USA.</li>
+<li>Second place for Germany and the USA : waste and water</li>
+<li>Second place for France : manufacturing.</li>
+</ul></li>
+<li>Similar intensities for manufacturing seem to support the hypothesis of a competitive global market.</li>
+<li>The huge variations in intensities of energy sector translate differences in strategies.<br>
+</li>
+<li>Difference in real estate sector are due to difference in accounting methods between the USA and Europe. In this sense, this specific sector is not comparable du those differences.</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Understand why real estate and housing is not comparable between Europe and the USA.</li>
+<li>Section 4.1. and Table 1 do not seem to be too much relevant for the presentation</li>
+<li>It could be interesting to have some orders of magnitude in terms of tC02e for the public to understand.</li>
+</ul>
+</div>
+</div>
 </section>
-<section id="capital-emissions-by-asset-class" class="level2">
-<h2 class="anchored" data-anchor-id="capital-emissions-by-asset-class">4.2. capital emissions by asset class</h2>
+<section id="capital-emissions-by-asset-class-pp.29-30" class="level2">
+<h2 class="anchored" data-anchor-id="capital-emissions-by-asset-class-pp.29-30">4.2. capital emissions by asset class (pp.29-30)</h2>
+<ol start="98" type="1">
+<li>The authors then present capital emissions by asset class. They mention that this approach is more sensitive to changes in the value of assets. Here, they identify 5 different classes, namely :</li>
+</ol>
+<ul>
+<li>housing assets,</li>
+<li>business assets,</li>
+<li>equities,</li>
+<li>pension assets,</li>
+<li>fixed income assets (that are associated with emission levels of 0). Those are : government bonds, corporate bonds, asset-backed securities like mortgage-backed bonds.</li>
+</ul>
+<p>99-103. The authors then proceed to comment their results, summarized in Table 2 (page 30) :</p>
+<ul>
+<li>Housing assets have the biggest market valuation, but have very marginal emissions.</li>
+<li>Equities are the most polluting assets by far.</li>
+<li>Pensions are second in terms of carbon emissions, but are much more carbon intensive in Germany.</li>
+<li>Business assets are third in terms of total carbon emissions, but their carbon intensity varies very much.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Table_2.png" class="img-fluid figure-img"></p>
+<figcaption>Asset classes and emission intensity per million $/€ owned (owenrship-based approach)</figcaption>
+</figure>
+</div>
 </section>
-<section id="the-role-of-foreign-capital-in-national-emissions" class="level2">
-<h2 class="anchored" data-anchor-id="the-role-of-foreign-capital-in-national-emissions">4.3. the role of foreign capital in national emissions</h2>
+<section id="the-role-of-foreign-capital-in-national-emissions-pp.30-31" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-foreign-capital-in-national-emissions-pp.30-31">4.3. the role of foreign capital in national emissions (pp.30-31)</h2>
+<ol start="104" type="1">
+<li><p>“Foreign equiy ownership therefore constitutes a substantial fraction of the equities held and the overall wealth of individuals in these nations” (p.30).</p></li>
+<li><p>Generally, equity held abroad by France and Germany citizens are more carbon intensive than the domestic equity. The inverse is true for the US citizens, i.e.&nbsp;domestic equities of the US held by US citizens are more carbon intensive than foreign equities held by US citizens.</p></li>
+<li><p>The authors try to explain this difference in carbon intensity of equity by giving two explanations. The first involve the intermediation level of equity, and the second is simply that “ultimate ownership of physical assets are comparatively less carbon-intensive in the US than those owned by French and Germans” (p.31).</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It seems helpful to state the difference between equity and corporate bonds. Equity refers to the stock of a firm, like a part of it, while the corporate bonds are debt of the firm, i.e.&nbsp;like loans of the firm.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-distribution-of-carbon-footprints-pp.31-37" class="level1">
+<h1>5. The Distribution of Carbon Footprints (pp.31-37)</h1>
+</section>
+<section id="emissions-rise-with-income-and-wealth-pp.31-34" class="level1">
+<h1>5.1. Emissions rise with income and wealth (pp.31-34)</h1>
+<ol start="107" type="1">
+<li><p>The first finding of the authors is that “emissions consistently exhibit a pronounced income or wealth gradient” (p.31), i.e.&nbsp;when welath or income increase, so does the emissions.</p></li>
+<li><p>The second important finding of the authors is that depending on the approach, the authors find carbon inequalities levels that are comparable to wealth or income inequality levels. In terms of carbon inequality, the US are globally more inequal than Germany, which is in turn more inequal than France when comparing top 10% to bottom 50% (Check the numbers of the paragraph 107). In this sense, figure 5 (p.33) is interesting to check :</p></li>
+</ol>
+<ul>
+<li>consumption-based approach gives small levels of carbon inequality</li>
+<li>mix-based approach gives similar levels of carbon inequality as compared to income inequality</li>
+<li>ownership-based approach gives levels between income and wealth inequalities.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_5.png" class="img-fluid figure-img"></p>
+<figcaption>Per capita emissions by wealth group</figcaption>
+</figure>
+</div>
+<p>109.The authors notice that the poorest people in the US (bottom 50%) have emissions comparable to the middle 40% in France and Germany (except when comparing it in the ownership-based approach). The general idea is that the bottom 50% of the US emits like the 10% of France in average (16.2 tons for the top 10% in France, 14.2 for the bottom 50% in the us).</p>
+<ol start="110" type="1">
+<li><p>The authors then focus on the top 10% in France and Germany. They note that these groups emissions are quite simlar, except for the ownership-based approach, in which the top 10% of Germany emits more byt 10 tons in average. In the meanwhile, the top 10% of France own 5% more of the national wealth than the top 10% of Germany.</p></li>
+<li><p>Comparing the top 10% of the US to France and Germany, they get that the US group emits 3 times more than the french group, and twice the amount of the german group.</p></li>
+<li><p>For the top 1% :</p></li>
+</ol>
+<ul>
+<li>in France, they emit 169 equivalent of tons of CO2</li>
+<li>in Germany, they emit 283,</li>
+<li>in the US, they emit 547.</li>
+</ul>
+<p>“Ownerhip-based emissions of the richest 1% of the population lie 22 to 27 times above the national average in the three countries.” (p.32).</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Figure 5 seems central to the paper.</li>
+<li>How do they take into account negative net wealth ?</li>
+</ul>
+</div>
+</div>
+<section id="emissions-intensity-rises-with-wealth" class="level2">
+<h2 class="anchored" data-anchor-id="emissions-intensity-rises-with-wealth">5.2. Emissions intensity rises with wealth</h2>
+<ol start="113" type="1">
+<li>THe authors advance that “the average emissions intensity tends to increase alongside wealth at the very top of the distribution” (p.35). Emissions per million euro or dollar grows very fast for the top 10% and 5%.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_6.png" class="img-fluid figure-img"></p>
+<figcaption>Average annual emissions in tonnes per million dollars or euros owned</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In Germany, the rise seems huge (bigger than in the US). This could be due to the portfolio specificities of the very rich German (see paragraphs number 105 (p.31) and 110 (p.32)).</p>
+</div>
+</div>
+<ol start="114" type="1">
+<li><p>The authors advance that this seems to suggest that “beyond a certain wealth treshhold, (…) the composition of assets significantly augments the emissions attributed to the wealthy” (p.35).</p></li>
+<li><p>This high carbon intensity at the very top of the distribution explains why emissions (ownership-based) are even more concentrated than wealth itself.</p></li>
+</ol>
+</section>
+<section id="the-weight-of-capital-emissions-among-top-groups" class="level2">
+<h2 class="anchored" data-anchor-id="the-weight-of-capital-emissions-among-top-groups">5.3. The weight of capital emissions among top groups</h2>
+<ol start="116" type="1">
+<li>“When incorporating capital emissions (…), the carbon footprint of the top 1% escalates.” (p.36). Basically, the idea is : Emissions of the top 1% :</li>
+</ol>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Countries</th>
+<th>Share in the consumption-based approach</th>
+<th>Share in the ownership-based approach</th>
+<th>Increase in tons of CO2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>France</td>
+<td>2.5%</td>
+<td>21.5%</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Germany</td>
+<td>2%</td>
+<td>22.3%</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>US</td>
+<td>6.2%</td>
+<td>26.9%</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<ol start="117" type="1">
+<li>The authors then put the emphasis on the fact that the top of the distribution has their emissions coming from their asset mainly. The carbon emission structure changes a lot. Generally, when wealth increases, direct emissions decrease and capital emissions increase. “It is quite clear that capital ownership is a paramount determinant of wealthy individuals emissions” (p.36).</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Figure_7.png" class="img-fluid figure-img"></p>
+<figcaption>Breakdown of emissions according to the three approaches</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is important to keep in mind figure 5 (p.33) when commenting figure 7 (p.37).</p>
+</div>
+</div>
+</section>
+</section>
+<section id="discussion-pp.38-51" class="level1">
+<h1>6. Discussion (pp.38-51)</h1>
+<section id="sensitivity-of-the-results-to-assumptions-pp.38-39" class="level2">
+<h2 class="anchored" data-anchor-id="sensitivity-of-the-results-to-assumptions-pp.38-39">6.1. Sensitivity of the results to assumptions (pp.38-39)</h2>
+<ol start="118" type="1">
+<li>The authors present figure 8, in which the have ranges of emissions for the top 10% under different scenarios (between 200 and 216) in which they change :</li>
+</ol>
+<ul>
+<li>government emissions</li>
+<li>non-ownership-based emissions</li>
+<li>housing-related emissions</li>
+</ul>
+<ol start="119" type="1">
+<li><p>Figure 8 (p.38) shows that the benchmark models results are always within the bounds / range given by alternative scenarios.</p></li>
+<li><p>Even assuming extreme secnarios, this does not affect “the general patterns we identify in the paper” (p.39), because the benchmark are always within the bounds.</p></li>
+</ol>
+</section>
+<section id="schope-and-limitations-of-the-data-and-footprinting-approaches-pp.39-44" class="level2">
+<h2 class="anchored" data-anchor-id="schope-and-limitations-of-the-data-and-footprinting-approaches-pp.39-44">6.2. Schope and limitations of the data and footprinting approaches (pp.39-44)</h2>
+<ol start="121" type="1">
+<li><p>They now talk about the limitations of their approach</p></li>
+<li><p>Limitations linked to data sources : They advance that the first weakness is the fact that the data relies on self-reporting, which could lead to important under-reporting for the top of the distribution. They still find similar result in the three countries, which seems to be a good sign.</p></li>
+<li><p>The second main limitation of the data they use is the limited number of asset classes. More generally, they do not have enough data on the portfolio composition of the agents. For example, it may be that the very rich mainly own the less emitting firms. We cannot know just based on the data of the paper. However, errors are limited since only the very rich own equity.</p></li>
+<li><p>Also, such data is simply unavailable in a some countries, making the study of the carbon footprint of assets impossible there.</p></li>
+<li><p>They also mention that air emissions accounts are not of high quality, especially in the US.</p></li>
+<li><p>Focusing on the weaknesses of the consumption-based approach, they mention :</p></li>
+</ol>
+<ul>
+<li>sampling bias of budget surveys</li>
+<li>the assumptoion of these studies is that “emissions per dollar spent for a particular consumption categoy (…) are equal across different income or wealth groups”</li>
+<li>aggregation from multiple countries could be problematic.</li>
+</ul>
+<ol start="127" type="1">
+<li><p>For the mixed-based approach, the limits are coming from both wealth data and from those mentioned in paragraph number 126.</p></li>
+<li><p>Carbon footprints and individual responsibility</p></li>
+</ol>
+<p>A difficulty is that “no broadly defined individual footprinting appraoch can fully capture the actual responsibility individuals bear for emissions” (p.41). Associating emissions with responsibility usually assumes :</p>
+<ul>
+<li>agency, intentionaly, and control,</li>
+<li>information,</li>
+<li>alternatives</li>
+</ul>
+<ol start="129" type="1">
+<li><p>In reality, those 3 conditions are rarely fulfilled.</p></li>
+<li><p>For example, knowledge about emissions associated with certain products is rare. Even when possessed, no alternatives may exist. They give here the example of the Yellow Vests in France between 2018 and 2019.</p></li>
+<li><p>One approach that could meet the 3 conditions of 128 is the ownership-based approach, but even there, some limits exist.</p></li>
+<li><p>For example, who has decision in the firm : managers, or owners ? Even there, the data does not allow for a well defined identification strategy.</p></li>
+<li><p>Also, what if some expenditure are done to reduce carbon footprint in the the future ? For example : eletric vehicules, or machines to diminish the carbon emission of the production process. This add a new form of temporal complexity.</p></li>
+<li><p>The authors estimate that these considerations are unlikely to impact their results.</p></li>
+<li><p>The authors mention that one could model further :</p></li>
+</ol>
+<ul>
+<li><span class="math inline">\(\alpha\)</span> the rate of control over indirect emissions.</li>
+<li><span class="math inline">\(\beta\)</span> the rate of control over direct emissions.</li>
+</ul>
+<p>The chosen approach could vary in function of <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>.</p>
+</section>
+<section id="how-our-estimates-compare-to-earlier-work-pp.44-45" class="level2">
+<h2 class="anchored" data-anchor-id="how-our-estimates-compare-to-earlier-work-pp.44-45">6.3. How our estimates compare to earlier work (pp.44-45)</h2>
+</section>
+<section id="stylized-facts-on-inequality-and-emissions-p.-46" class="level2">
+<h2 class="anchored" data-anchor-id="stylized-facts-on-inequality-and-emissions-p.-46">6.4 Stylized facts on inequality and emissions (p.&nbsp;46)</h2>
+</section>
+<section id="distributional-properties-and-revenue-estimates-for-a-carbon-wealth-tax-pp.46-51" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-properties-and-revenue-estimates-for-a-carbon-wealth-tax-pp.46-51">6.5. Distributional properties and revenue estimates for a carbon wealth tax (pp.46-51)</h2>
+</section>
+</section>
+<section id="conclusion-p.52" class="level1">
+<h1>7. Conclusion (p.52)</h1>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
