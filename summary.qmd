@@ -434,7 +434,7 @@ In this sense, figure 5 (p.33) is interesting to check :
 - mix-based approach gives similar levels of carbon inequality as compared to income inequality
 - ownership-based approach gives levels between income and wealth inequalities. 
 
-![Per capita emissions by wealth group](./Figure_5.png)
+![Per capita emissions by wealth group](./Resources/Figures/Figure_5.png)
 
 109.The authors notice that the poorest people in the US (bottom 50%) have emissions comparable to the middle 40% in France and Germany (except when comparing it in the ownership-based approach). The general idea is that the bottom 50% of the US emits like the 10% of France in average (16.2 tons for the top 10% in France, 14.2 for the bottom 50% in the us).
 
@@ -459,7 +459,7 @@ In this sense, figure 5 (p.33) is interesting to check :
 
 113. THe authors advance that "the average emissions intensity tends to increase alongside wealth at the very top of the distribution" (p.35). Emissions per million euro or dollar grows very fast for the top 10% and 5%. 
 
-![Average annual emissions in tonnes per million dollars or euros owned](./Figure_6.png)
+![Average annual emissions in tonnes per million dollars or euros owned](./Resources/Figures/Figure_6.png)
 
 ::: {.callout-warning}
 
@@ -484,7 +484,7 @@ Emissions of the top 1% :
 
 117. The authors then put the emphasis on the fact that the top of the distribution has their emissions coming from their asset mainly. The carbon emission structure changes a lot. Generally, when wealth increases, direct emissions decrease and capital emissions increase. "It is quite clear that capital ownership is a paramount determinant of wealthy individuals emissions" (p.36). 
 
-![Breakdown of emissions according to the three approaches](./Figure_7.png)
+![Breakdown of emissions according to the three approaches](./Resources/Figures/Figure_7.png)
 
 ::: {.callout-warning}
 It is important to keep in mind figure 5 (p.33) when commenting figure 7 (p.37). 
@@ -605,13 +605,13 @@ You cannot write "the graph demonstrates..." (p.47) and exclude the bottom 50% b
 
 150. They propose the lecture of the figure 10 (page 50), in which they simulate the impact of tax on tonne of COE2. They advance it is not much. 
 
-![Progressivity of taxes levied on ownership-based emissions (ownership-based approach)](./Figure_10.png)
+![Progressivity of taxes levied on ownership-based emissions (ownership-based approach)](./Resources/Figures/Figure_10.png)
 
 151. They propose figure 11 (page 50), in which they compare tax on net wealth and tax on cpaital emissions. They advance it is not much. They also mention Figure 12 (page 51), that estimates a static (without taking into account behavioral responses) consequence of a carbon taxation to estimate revenu for the government. 
 
-![Tax burden for average top 1% wealth holder of taxes levied on ownership-related emissions](./Figure_11.png)
+![Tax burden for average top 1% wealth holder of taxes levied on ownership-related emissions](./Resources/Figures/Figure_11.png)
 
-![Simple static revenue estimates for a per-tonne tax on capital ownership-based emissions](./Figure_12.png)
+![Simple static revenue estimates for a per-tonne tax on capital ownership-based emissions](./Resources/Figures/Figure_12.png)
 
 152. The authors then underly the fact that "the results are intended to show that these taxes could be considered in the future as part of a more diverse envionmental policy mix" (p.48). Their goal with the precedent figures is not to argue that those are taxation policy that should be implemented, but more to show that alternatives are possible in the implementation of policies to go against CO2 emissions : "Departing from a purely Pigouvian perspective, carbon taxes could also be rationalized as a policy tool to achieve an externally defined behavioral change with the most limited harm to social welfare" (p.48).
 
