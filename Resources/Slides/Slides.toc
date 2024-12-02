@@ -1,1 +1,18 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Related Literature}{5}{0}{2}
+\beamer@sectionintoc {3}{Data Sources and Methodology}{7}{0}{3}
+\beamer@sectionintoc {4}{Carbon Footprint of the Capital}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{Capital emissions by industry and institutional sector}{11}{0}{4}
+\beamer@subsectionintoc {4}{2}{Capital emissions by asset class}{13}{0}{4}
+\beamer@subsectionintoc {4}{3}{The role of foreign capital in national emissions}{15}{0}{4}
+\beamer@sectionintoc {5}{The Distribution of Carbon Footprints}{16}{0}{5}
+\beamer@subsectionintoc {5}{1}{Emissions rise with income and wealth}{18}{0}{5}
+\beamer@subsectionintoc {5}{2}{Emissions intensity rises with wealth}{21}{0}{5}
+\beamer@subsectionintoc {5}{3}{The weight of capital emissions among top groups}{22}{0}{5}
+\beamer@sectionintoc {6}{Discussion}{25}{0}{6}
+\beamer@subsectionintoc {6}{1}{Sensitivity of the results to assumption}{27}{0}{6}
+\beamer@subsectionintoc {6}{2}{Scope and limitations of the data and foootprinting approaches}{28}{0}{6}
+\beamer@subsectionintoc {6}{3}{How our estimates compare to earlier work}{29}{0}{6}
+\beamer@subsectionintoc {6}{4}{Stylized facts on inequality and emissions}{30}{0}{6}
+\beamer@subsectionintoc {6}{5}{Distributional properties and revenue estimates for a carbon wealh tax}{31}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{32}{0}{7}

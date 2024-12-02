@@ -13,7 +13,7 @@ website:
         text: Home
       - href: index.qmd
         text: The Carbon Footprint of Capital
-      - href: ./Resources/Slides.pdf
+      - href: ./Resources/Slides/Slides.pdf
         text: Slides
       - about.qmd
 

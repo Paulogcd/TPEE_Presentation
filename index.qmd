@@ -11,7 +11,7 @@ Welcome to this website dedicated to the presentation of the working paper : Cha
 
 Here are some useful resources for a good understanding of the authors work :
 
-- Our presentation ([here the Latex code](./Resources/Slides.tex))
+- Our presentation ([here the Latex code](./Resources/Slides/Slides.tex))
 - A textual summary of the article
 
 More coming soon ! 
