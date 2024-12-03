@@ -11,22 +11,22 @@
 \beamer@subsectionintoc {3}{1}{Conceptual Framework}{16}{0}{3}
 \beamer@subsectionintoc {3}{2}{Data Sources}{17}{0}{3}
 \beamer@subsectionintoc {3}{3}{Methodology Overview}{18}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{1}{Extended Aggregate Environmental Accounts}{19}{0}{3}
-\beamer@subsubsectionintoc {3}{3}{2}{Distributional Environmental Accounts}{20}{0}{3}
-\beamer@subsectionintoc {3}{4}{Conclusion of Section 3}{21}{0}{3}
-\beamer@sectionintoc {4}{Carbon Footprint of the Capital}{22}{0}{4}
-\beamer@subsectionintoc {4}{1}{Capital emissions by industry and institutional sector}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{Capital emissions by asset class}{26}{0}{4}
-\beamer@subsectionintoc {4}{3}{The role of foreign capital in national emissions}{28}{0}{4}
-\beamer@sectionintoc {5}{The Distribution of Carbon Footprints}{29}{0}{5}
-\beamer@subsectionintoc {5}{1}{Emissions rise with income and wealth}{31}{0}{5}
-\beamer@subsectionintoc {5}{2}{Emissions intensity rises with wealth}{34}{0}{5}
-\beamer@subsectionintoc {5}{3}{The weight of capital emissions among top groups}{35}{0}{5}
-\beamer@sectionintoc {6}{Discussion}{38}{0}{6}
-\beamer@subsectionintoc {6}{1}{Robustness of the results}{40}{0}{6}
-\beamer@subsectionintoc {6}{2}{Scopes and limitations}{41}{0}{6}
-\beamer@subsubsectionintoc {6}{2}{1}{Limitations due to the data}{41}{0}{6}
-\beamer@subsubsectionintoc {6}{2}{2}{Interpretative Limitations and Individual Responsibility}{46}{0}{6}
-\beamer@subsectionintoc {6}{3}{Stylized facts on inequality and emissions}{47}{0}{6}
-\beamer@subsectionintoc {6}{4}{Distributional properties and revenue estimates for a carbon wealth tax}{48}{0}{6}
-\beamer@sectionintoc {7}{Conclusion}{49}{0}{7}
+\beamer@subsubsectionintoc {3}{3}{1}{Extended Aggregate Environmental Accounts}{20}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{2}{Distributional Environmental Accounts}{21}{0}{3}
+\beamer@subsectionintoc {3}{4}{Conclusion of Section 3}{22}{0}{3}
+\beamer@sectionintoc {4}{Carbon Footprint of the Capital}{23}{0}{4}
+\beamer@subsectionintoc {4}{1}{Capital emissions by industry and institutional sector}{25}{0}{4}
+\beamer@subsectionintoc {4}{2}{Capital emissions by asset class}{27}{0}{4}
+\beamer@subsectionintoc {4}{3}{The role of foreign capital in national emissions}{29}{0}{4}
+\beamer@sectionintoc {5}{The Distribution of Carbon Footprints}{30}{0}{5}
+\beamer@subsectionintoc {5}{1}{Emissions rise with income and wealth}{32}{0}{5}
+\beamer@subsectionintoc {5}{2}{Emissions intensity rises with wealth}{35}{0}{5}
+\beamer@subsectionintoc {5}{3}{The weight of capital emissions among top groups}{36}{0}{5}
+\beamer@sectionintoc {6}{Discussion}{39}{0}{6}
+\beamer@subsectionintoc {6}{1}{Robustness of the results}{41}{0}{6}
+\beamer@subsectionintoc {6}{2}{Scopes and limitations}{42}{0}{6}
+\beamer@subsubsectionintoc {6}{2}{1}{Limitations due to the data}{42}{0}{6}
+\beamer@subsubsectionintoc {6}{2}{2}{Interpretative Limitations and Individual Responsibility}{47}{0}{6}
+\beamer@subsectionintoc {6}{3}{Stylized facts on inequality and emissions}{48}{0}{6}
+\beamer@subsectionintoc {6}{4}{Distributional properties and revenue estimates for a carbon wealth tax}{49}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{50}{0}{7}

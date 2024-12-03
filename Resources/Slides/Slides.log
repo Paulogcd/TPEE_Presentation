@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.24)  3 DEC 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.24)  3 DEC 2024 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,121 +1054,127 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 ] [18
 
-] [19
+]
+<../Figures/Figure_2.png, id=264, 780.9175pt x 558.085pt>
+File: ../Figures/Figure_2.png Graphic file (type png)
+<use ../Figures/Figure_2.png>
+Package pdftex.def Info: ../Figures/Figure_2.png  used on input line 217.
+(pdftex.def)             Requested size: 276.559pt x 197.64043pt.
+ [19
+
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/Figure_2.png>] [20
 
 ]
-Overfull \vbox (0.1153pt too high) detected at line 259
+Overfull \vbox (0.1153pt too high) detected at line 250
  []
 
-[20
-
-] [21
+[21
 
 ] [22
 
-] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [23
+] [23
 
-] [24
+] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [24
+
+] [25
 
 ]
-<../Figures/T1.png, id=303, 761.84625pt x 699.61375pt>
+<../Figures/T1.png, id=311, 761.84625pt x 699.61375pt>
 File: ../Figures/T1.png Graphic file (type png)
 <use ../Figures/T1.png>
-Package pdftex.def Info: ../Figures/T1.png  used on input line 315.
+Package pdftex.def Info: ../Figures/T1.png  used on input line 306.
 (pdftex.def)             Requested size: 243.58653pt x 223.69612pt.
 
-Overfull \vbox (14.93202pt too high) detected at line 315
+Overfull \vbox (14.93202pt too high) detected at line 306
  []
 
-[25
+[26
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/T1.png>] [26
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/T1.png>] [27
 
 ]
-<../Figures/T2.png, id=315, 771.88374pt x 445.665pt>
+<../Figures/T2.png, id=322, 771.88374pt x 445.665pt>
 File: ../Figures/T2.png Graphic file (type png)
 <use ../Figures/T2.png>
-Package pdftex.def Info: ../Figures/T2.png  used on input line 351.
+Package pdftex.def Info: ../Figures/T2.png  used on input line 342.
 (pdftex.def)             Requested size: 307.28987pt x 177.4196pt.
- [27
+ [28
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/T2.png>] [28
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/T2.png>] [29
 
-] [29
+] [30
 
-] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [30
+] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [31
 
-] [31
+] [32
 
 ]
-<../Figures/F51.png, id=349, 771.88374pt x 314.17375pt>
+<../Figures/F51.png, id=356, 771.88374pt x 314.17375pt>
 File: ../Figures/F51.png Graphic file (type png)
 <use ../Figures/F51.png>
-Package pdftex.def Info: ../Figures/F51.png  used on input line 393.
+Package pdftex.def Info: ../Figures/F51.png  used on input line 384.
 (pdftex.def)             Requested size: 307.28987pt x 125.07281pt.
- [32
+ [33
 
  </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F51.png>]
-<../Figures/F52.png, id=356, 771.88374pt x 620.3175pt>
+<../Figures/F52.png, id=363, 771.88374pt x 620.3175pt>
 File: ../Figures/F52.png Graphic file (type png)
 <use ../Figures/F52.png>
-Package pdftex.def Info: ../Figures/F52.png  used on input line 397.
+Package pdftex.def Info: ../Figures/F52.png  used on input line 388.
 (pdftex.def)             Requested size: 307.28755pt x 223.69273pt.
 
-Overfull \vbox (6.92863pt too high) detected at line 397
+Overfull \vbox (6.92863pt too high) detected at line 388
  []
 
-[33
+[34
 
  </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F52.png>]
-<../Figures/F6.png, id=363, 771.88374pt x 358.33875pt>
+<../Figures/F6.png, id=370, 771.88374pt x 358.33875pt>
 File: ../Figures/F6.png Graphic file (type png)
 <use ../Figures/F6.png>
-Package pdftex.def Info: ../Figures/F6.png  used on input line 406.
+Package pdftex.def Info: ../Figures/F6.png  used on input line 397.
 (pdftex.def)             Requested size: 276.559pt x 128.38945pt.
- [34
+ [35
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F6.png>] [35
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F6.png>] [36
 
 ]
-<../Figures/F71.png, id=373, 771.88374pt x 323.2075pt>
+<../Figures/F71.png, id=380, 771.88374pt x 323.2075pt>
 File: ../Figures/F71.png Graphic file (type png)
 <use ../Figures/F71.png>
-Package pdftex.def Info: ../Figures/F71.png  used on input line 433.
+Package pdftex.def Info: ../Figures/F71.png  used on input line 424.
 (pdftex.def)             Requested size: 276.559pt x 115.80225pt.
- [36
+ [37
 
  </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F71.png>]
-<../Figures/F72.png, id=380, 771.88374pt x 612.2875pt>
+<../Figures/F72.png, id=388, 771.88374pt x 612.2875pt>
 File: ../Figures/F72.png Graphic file (type png)
 <use ../Figures/F72.png>
-Package pdftex.def Info: ../Figures/F72.png  used on input line 439.
+Package pdftex.def Info: ../Figures/F72.png  used on input line 430.
 (pdftex.def)             Requested size: 276.559pt x 219.37694pt.
 
-Overfull \vbox (10.61284pt too high) detected at line 439
+Overfull \vbox (10.61284pt too high) detected at line 430
  []
 
-[37
+[38
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F72.png>] [38
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/F72.png>] [39
 
-] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [39
+] (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.toc) [40
 
 ]
-<../Figures/Figure_8.png, id=408, 771.88374pt x 518.93875pt>
+<../Figures/Figure_8.png, id=415, 771.88374pt x 518.93875pt>
 File: ../Figures/Figure_8.png Graphic file (type png)
 <use ../Figures/Figure_8.png>
-Package pdftex.def Info: ../Figures/Figure_8.png  used on input line 452.
+Package pdftex.def Info: ../Figures/Figure_8.png  used on input line 443.
 (pdftex.def)             Requested size: 307.28987pt x 206.58994pt.
 
-Overfull \vbox (46.96999pt too high) detected at line 452
+Overfull \vbox (46.96999pt too high) detected at line 443
  []
 
-[40
+[41
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/Figure_8.png>] [41
-
-] [42
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/Figure_8.png>] [42
 
 ] [43
 
@@ -1176,29 +1182,31 @@ Overfull \vbox (46.96999pt too high) detected at line 452
 
 ] [45
 
+] [46
+
 ]
-Overfull \vbox (20.47923pt too high) detected at line 584
+Overfull \vbox (20.47923pt too high) detected at line 575
  []
 
-[46
+[47
 
-] [47
+] [48
 
 ]
-<../Figures/Figure_9.png, id=453, 771.88374pt x 577.15625pt>
+<../Figures/Figure_9.png, id=460, 771.88374pt x 577.15625pt>
 File: ../Figures/Figure_9.png Graphic file (type png)
 <use ../Figures/Figure_9.png>
-Package pdftex.def Info: ../Figures/Figure_9.png  used on input line 617.
+Package pdftex.def Info: ../Figures/Figure_9.png  used on input line 608.
 (pdftex.def)             Requested size: 307.28987pt x 229.76637pt.
 
-Overfull \vbox (97.3019pt too high) detected at line 617
+Overfull \vbox (97.3019pt too high) detected at line 608
  []
 
-[48
+[49
 
- </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/Figure_9.png>] [49
+ </Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/../Figures/Figure_9.png>] [50
 
-] [50
+] [51
 
 ]
 \tf@nav=\write6
@@ -1212,21 +1220,21 @@ Overfull \vbox (97.3019pt too high) detected at line 617
 
  (/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.aux)
 Package rerunfilecheck Info: File `Slides.out' has not changed.
-(rerunfilecheck)             Checksum: DADC539C06E1A10216E1434B5D550BA6;6411.
+(rerunfilecheck)             Checksum: 156036B7788BFC74A92AAA378EA61ADE;6411.
  ) 
 Here is how much of TeX's memory you used:
- 35500 strings out of 478994
- 833361 string characters out of 5858184
+ 35510 strings out of 478994
+ 833544 string characters out of 5858184
  1254151 words of memory out of 5000000
- 52110 multiletter control sequences out of 15000+600000
+ 52117 multiletter control sequences out of 15000+600000
  416671 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,13n,132p,1912b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on /Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf (50 pages, 1128688 bytes).
+Output written on /Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf (51 pages, 1259848 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 133 named destinations out of 1000 (max. 500000)
- 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
