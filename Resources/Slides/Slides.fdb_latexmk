@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1733237403 "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.tex" "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf" "Slides" 1733237409
+["pdflatex"] 1733237403 "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.tex" "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf" "Slides" 1733237731
   "../Figures/Camp.png" 1733213592 146040 0bab0b2c8a85cf860a3a607af5ca9fac ""
   "../Figures/Camp2.png" 1733213594 126973 11b805b5638e2e91898901aa61002c8c ""
   "../Figures/F1.png" 1733213596 107821 d70a1476114e1b1d40616277352f4089 ""
@@ -13,7 +13,7 @@
   "../Figures/T1.png" 1733157882 157456 ab4c6a6363d977ffed8f522227664ed1 ""
   "../Figures/T2.png" 1733158301 108119 076576328cdcc88a1fc4c407ef95bbae ""
   "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.aux" 1733237408 17316 990e194b1d9712e7acc9e23ae3188a9c ""
-  "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.tex" 1733237402 24716 4a678132476c66d35e5fe0b5830f29a1 ""
+  "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.tex" 1733237731 24716 4a678132476c66d35e5fe0b5830f29a1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcss0900.tfm" 1136768653 1536 ba0169ee8bc017972775b933313cbbb0 ""
@@ -301,15 +301,15 @@
   "Slides.aux" 1733237408 17316 990e194b1d9712e7acc9e23ae3188a9c "pdflatex"
   "Slides.nav" 1733237408 10529 968c24557fe50f591117ddf8a5145871 "pdflatex"
   "Slides.out" 1733237408 6411 dadc539c06e1a10216e1434b5d550ba6 "pdflatex"
-  "Slides.tex" 1733237402 24716 4a678132476c66d35e5fe0b5830f29a1 ""
+  "Slides.tex" 1733237731 24716 4a678132476c66d35e5fe0b5830f29a1 ""
   "Slides.toc" 1733237408 2428 0d9d1e8de453894687ac028b0ed5c09c "pdflatex"
   (generated)
-  "Slides.snm"
+  "Slides.out"
+  "Slides.nav"
+  "Slides.log"
   "Slides.toc"
   "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.log"
-  "Slides.aux"
-  "Slides.nav"
-  "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf"
-  "Slides.out"
   "Slides.pdf"
-  "Slides.log"
+  "Slides.snm"
+  "Slides.aux"
+  "/Users/pgcd/Documents/Sciences_Po/Master/S3/5_Topics/Presentation/Resources/Slides/Slides.pdf"
