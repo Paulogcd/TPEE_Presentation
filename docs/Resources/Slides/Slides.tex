@@ -1,10 +1,23 @@
-\documentclass{beamer}
+\documentclass[10pt]{beamer}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{bm}
 \usepackage{hyperref}
 \usepackage{csquotes}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
 
 \DeclareSymbolFont{matha}{OML}{txmi}{m}{it}% txfonts
 \DeclareMathSymbol{\varv}{\mathord}{matha}{118}
@@ -40,14 +53,119 @@
     \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
 \end{frame}
 
+\subsection{Carbon Footprint}
+\begin{frame}{\subsecname}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \includegraphics[width=1\linewidth, height=0.4\textheight]{../Figures/Camp.png}
+            \includegraphics[width=1\linewidth, height=0.4\textheight]{../Figures/Camp2.png}
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \textbf{Carbon Footprint:} The measure of the exclusive total amount of emissions of carbon dioxide that is directly and indirectly caused by an activity or is accumulated over the life-cycle stages of a product. \\
+            \textbf{Individual Carbon Footprint:} The carbon footprint associated with an individual’s activities, lifestyle or choices. \\
+            \textbf{Challenge:} What to include in the carbon footprint? \\
+            The Consumption-based Approach
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\subsection{Carbon Footprint of Capital : Chancel and Rehm (2024)}
+\begin{frame}{\subsecname}
+    \begin{center}
+    "The Carbon Footprint of Capital: 
+    \textit{Evidence from France, Germany and the US based on Distributional Environmental Accounts}"
+    \end{center}
+
+    \textbf{Motivations:}
+    \textit{Individuals are not only responsible for their consumption, but also for the assets they own.}
+    \begin{enumerate}
+        \item Linking carbon emissions to asset ownership to construct a new framework for individual carbon footprint (3 Approaches: Consumption, Ownership and Mixed).
+        \item Applying this framework to France, Germany and the US.
+        \item Deriving new stylized facts about emissions inequality in the context of environmental and tax policy.
+    \end{enumerate}
+\end{frame}
+
+\subsection{Key findings}
+\begin{frame}{\subsecname}
+    \begin{enumerate}
+        \item Carbon inequalities are notable in every approach.
+        \item In the ownership approach, the majority of emissions for the wealthiest 10\% originates from the assets they own.
+        \item Emissions from capital ownership appear to be even more concentrated than capital itself.
+    \end{enumerate}
+    \includegraphics[width=1\linewidth]{../Figures/F1.png}
+\end{frame}
+
 \section{Related Literature}
 \begin{frame}
     \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
 \end{frame}
 
+\subsection{Measuring the Carbon Footprint}
+\begin{frame}{\subsecname}
+
+    \textit{What makes a good Carbon Footprint estimate?}
+    
+    The 2 fundamentals or carbon accounting:
+        \begin{enumerate}
+            \item \textbf{Comprehensiveness:} measuring both direct and indirect emissions associated with the economic activity.
+            \item \textbf{Exclusivity:} no double-counting.
+        \end{enumerate}
+    
+    Together, these conditions guarantee the \textbf{macro-consistency} of the measures. \\
+    So far, the two common ways to measure the carbon footprint have been to focus on \textbf{countries and firms} or \textbf{individuals} (as final consumers).
+\end{frame}
+
+\subsection{Consumption-based Approaches}
+\begin{frame}{\subsecname}
+    \textbf{Individuals' consumption guide the resource allocation in the economy.}
+        \begin{itemize}
+            \item Underlying assumption: \textit{"Individuals express their preferences through consumption, which sens a signal to producers about what to manufacture and in what quantity."}
+            \item The \textbf{"consumer-pays"} principle
+        \end{itemize}
+        \textbf{Advantage:} Particularly relevant at the country level (accounts for outsourced emissions). \\
+        \textbf{Drawback:} Puts the entire responsibility for all emissions on final consumers (despite market failures: lack of information, agency or alternatives).
+\end{frame}
+
+\subsection{Production-centered Approaches and Methods of Shared Attribution}
+\begin{frame}{\subsecname}
+    Contrasting consumption footprints with the production footprints of firms. \\
+    \hfill \break
+    \textbf{Production-centered approaches}: Focusing on the firm level \\
+    Critique: Firms operate through human intervention and individuals are behind their behaviors. $\rightarrow$ \textbf{Ownership-based approach} \\
+    \hfill \break
+    \textbf{Methods of shared attribution}: Split emissions between consumers and firm owners \\
+    Critique: Hard to implement at the individual level. $\rightarrow$ \textbf{Mixed-based approach} \\
+    \hfill \break
+    \textbf{Income-based carbon accounting}: An alternative at the individual level?
+\end{frame}
+
+\subsection{From the Carbon Footprint of individual investment portfolios to the DINA}
+\begin{frame}{\subsecname}
+    \textit{There already were some attempts at measuring the carbon emissions of individual portfolios (GHG, PCAF). But there exists no consensus regarding these methods and their estimates were not always consistent with aggregate estimates.}
+    \vspace{15pt}
+    
+    Their answer:
+    \textbf{the Distributional National and Environmental Accounts (DINA)}
+    \begin{itemize}
+        \item Goal of the DINA framework: \textit{Reconciling macroeconomic studies (e.g., production, income, wealth) with microeconomic distributional analysis by integrating the study of inequality into the system of national accounts. }
+    \end{itemize}
+\end{frame}
+
 \section{Data Sources and Methodology}
 \begin{frame}
-    \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
+    \textbf{Key Datasets Used:}
+    \begin{itemize}
+        \item \textbf{Wealth Data:} HFCS (France/Germany) and DINA (US).
+        \item \textbf{Macroeconomic Data:} National accounts from Eurostat and OECD.
+        \item \textbf{Emissions Data:} Air emission accounts (Eurostat, OECD).
+        \item \textbf{Input-Output Tables:} Eurostat FIGARO dataset (2010–2020).
+    \end{itemize}
+
+    \textbf{Example Insights:}
+    \begin{itemize}
+        \item Emissions in US agriculture: \textbf{534.9 tCO$_2$/million dollars owned}.
+        \item Manufacturing emissions in France: \textbf{95.1 MtCO$_2$} (ownership approach).
+    \end{itemize}
 \end{frame}
 
 \section{Carbon Footprint of the Capital}

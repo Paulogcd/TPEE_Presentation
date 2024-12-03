@@ -1,4 +1,4 @@
-This is a working summary of the paper 
+This is a summary of the studied article.
 
 # Abstract
 
@@ -30,9 +30,9 @@ They therefore advance the three main goals of the article :
 
 The 3 approaches of measure of individual carbon footprint are : 
 
-- ownership-based approach : emissions from production are attributed to firm owners. 
-- consumption-based approach : attribution to the final consumers. 
-- mixed-based approach : emissions from production are attributed to consumers, except the ones du to capital formation (investment).
+- Ownership-based approach : emissions from production are attributed to firm owners. 
+- Consumption-based approach : attribution to the final consumers. 
+- Mixed-based approach : emissions from production are attributed to consumers, except the ones du to capital formation (investment).
 
 In all approaches, direct emissions of Households are attributed to the Households themselves.
 
@@ -41,8 +41,8 @@ They combine official environmental accounts (i.e. air emissions) and national a
 With the distribution of asset ownership, they estimate the individual emissions of asset ownership, with "existing estimates from the literature on the distribution of direct and consumption-based emissions"(p.2).
 Essentially, to estimate individual emissions of asset ownership, they combine : 
 
-- estimates of emissions
-- asset ownership distribution 
+- Estimates of emissions.
+- Asset ownership distribution.
 
 Using this approach, they find important emissions inequalities.
 When using the ownership-based approach, the rich are much more responsible of emissions. 
@@ -64,8 +64,8 @@ They announce to focus on the critiques of the "dominant consumption-centered ap
 They identify carbon footprint as a concept developed in the 2000s, and take the definition of the IPCC 2022 and of Wiedmann and Minx, 2008.
 They recall the importance of the individual carbon footprint concept and advance two ideal properties of a carbobn footprint measure framework : 
 
-- comprehensiveness : the system should take into account direct and indirect emissions of economic activities. 
-- exclusivity : the system should not have double-counting. 
+- Comprehensiveness : the system should take into account direct and indirect emissions of economic activities. 
+- Exclusivity : the system should not have double-counting. 
 
 
 ## 2.2. Consumption-based approaches (pp.5-6)
@@ -80,7 +80,7 @@ The authors advance that the consumption-based approach overstates the weight of
 
 - Market failures, such as monopoly or the impossibility to get carbon-free products. 
 - Markup in the prices, that make individual changes impossible due to budget constraints. 
-- Information asymmetries (with references to the work of Akerlof and Rothschild (p.6))
+- Information asymmetries (with references to the work of Akerlof and Rothschild (p.6)).
 - Pollution from production does not only serve consumption, because decision power in the production process also fives utility to the producer. 
 
 ## 2.4. Production-based approaches and methods of shared attribution (pp.7-9)
@@ -113,18 +113,18 @@ Therefore, they base themselves on the DINA framework to construct a micro-macro
 The authors explain that this part has three sections : 
 
 - Conceptual framework : 3 carbon footprint approaches. 
-- Data sources 
+- Data sources.
 - Methodology :
-    - extended aggregate environmental and economic acounts,
-    - distributional environmental accounts
+    - Extended aggregate environmental and economic acounts.
+    - Distributional environmental accounts.
  
 ## 3.1. Conceptual framework : Three Carbon Footprint Approaches (pp.10-15)
 
 They develop 3 approches : 
 
-- ownership-based 
-- consumption-based
-- mixed-based 
+- Ownership-based.
+- Consumption-based.
+- Mixed-based.
 
 They refer to Appendix I, section C1 for a more detailed definition of each approach. 
 
@@ -150,57 +150,64 @@ The authors then compare their approach with the GHG and PCAF protocol. They ide
 - First, the other initiatives attribute emissions to purely financial assets, in opposition to their approach. 
 - Second, the other initiatives are not individual and exclusive. All emissions (direct and indirect) are attributed to one asset, and not one individual. 
 
-Still comparing the GHG and PCAF to their approaches, the owerniship approach has the closest results to them. 
+The authors also note that the owerniship approach has the closest results compared to the GHG and PCAF.
 
 #### Mixed-based approach 
 
 In their mixed-based approach, the authors attribute capital formation emissions to investors (or owners) and the rest of emissions to consumers. 
-They use this difference between money to produce and money invested to reproduce capital of the firms, partially because this differenciation is available in the national accounts. Also, while money to produce production is "demanded" by consumers, money invested is "demanded" by the firm. 
+They use this difference between money to produce and money invested to reproduce capital of the firms, partially because this differenciation is available in the national accounts.
+Also, while money to produce production is "demanded" by consumers, money invested can be considered as "demanded" by the owners of the firm. 
 The authors mention that they use a multi-regional input-output model, in which they separate : 
 
-- gross fixed capital formation emissions 
-- final households emisions 
-- government consumption emissions
+- Gross fixed capital formation emissions.
+- Final households emisions.
+- Government consumption emissions.
 
-52. In this approach, more is attributed to the final consumers than in the previous approach. 
+In this approach, more is attributed to the final consumers than in the previous approach. 
 Also, for the government emissions, they use the same strategy as in the ownership approach. 
 
-53. The authors make the distinction between net and gross capital formation. 
+The authors make the distinction between net and gross capital formation. 
 In the gross capital formation is included the replacement of machines, and the buying of new machines (the net capital formation). 
 In other words, gross capital formation investment is the addition of the replacement and investment. 
 The authors decide to attribute gross capital formation because only taking net would attribute the difference to the final consumers. 
 Also, net and gross capital formation have different intensities, so this distinction is important for the results. 
 
+The authors recall the existence of the value-added approach and of the income-based approach.
+They advance hat their approach is better because :
 
-54-55. THe authors recall the existence of the value-added approach and of the income-based approach. THeir point is : 
-
-- The value-added approach is too difficult to implement if we do not have an aggregate vision of data. 
-- The income-based approach is sensitive to manipulation from the firm. It would be beneficial for the firm to for example delay profit flow, making the workers responsible for all its emissions instead of the owners.
+- The value-added approach is too difficult to implement without aggregate data. 
+- The income-based approach is sensitive to manipulation from the firm.
+It would be beneficial for the firm to, for example, delay profit flow, making the workers responsible for all its emissions instead of the owners.
 
 #### Consumption-based approach 
 
-56. To see strengths and weaknesses of this approach, check paragraphs (21-28).
-
-57. The authors warn that the ownership appraoch (1) and the consumption and mixed-based approaches (2) have different total emissions. Indeed, some are owners of foreign firms, and some consume from foreign firms. 
-
-58. THe authors advance that those approaches are complementary to each other and do a paralel with studying social inequalities. one must not only study the differences in consumption, but also in income and wealth to understand these inequalities. 
+To see strengths and weaknesses of this approach, check the previous critiques in the Literature Review. 
+The authors warn that the ownership approach (1) and the consumption and mixed-based approaches (2) have different total emissions.
+Indeed, some are owners of foreign firms, and some consume from foreign firms. 
+The authors advance that those approaches are complementary to each other and do a parallel with studying social inequalities :
+One must not only study the differences in consumption, but also in income and wealth to understand these inequalities. 
 
 ## 3.2. Data sources (pp.15-18)
 
 #### Wealth data 
 
-60. For France and Germany, the authors take the Household Finance and COnsumption Survey (HFCS), which has the wealth distribution and the asset owned along this distribution. 
-For the US, they use the Distributional National Accounts (DINA) data (Piketty et al., 2018). Those are micro-files that include tax, survey, and national accounts data. 
+For France and Germany, the authors take the Household Finance and Consumption Survey (HFCS), which has the wealth distribution and the asset owned along this distribution. 
+For the US, they use the Distributional National Accounts (DINA) data (Piketty et al., 2018).
+Those are micro-files that include tax, survey, and national accounts data. 
 
-61. The authors mention that there exist a lot of problems with HFCS data, for example they do not take into account the wealth of the richest part of the distribution. In this sense, they do proceed to correction of the HFCS data. 
-
-62. The corrections are essentially a re-weighting approach based on the distribution of the World Inequalitye Database (WID). They fix weights so that they get the same distribution as in the WID. They assume however that the HFCS has correct information about the holding of assets along the wealth distribution. 
+The authors mention that there exist a lot of problems with HFCS data, for example they do not take into account the wealth of the richest part of the distribution.
+In this sense, they do proceed to correction of the HFCS data. 
+The corrections are essentially a re-weighting approach based on the distribution of the World Inequalitye Database (WID).
+They fix weights so that they get the same distribution as in the WID.
+They assume however that the HFCS has correct information about the holding of assets along the wealth distribution. 
 They add that the DINA files do not require corrections. 
 
 ### Macroeconomic capital stock and balance sheet data
 
-63. To get these data, they link emissions to industries, and then to institutional sectors (households, government, corporations, and foreign firms). To do so, they take data from Eurostat for France and Germany. For the USA, they take data from the OECD. 
-For the three countries, they use : 
+To get these data, they link emissions to industries, and then to institutional sectors (households, government, corporations, and foreign firms).
+To do so, they take data from Eurostat for France and Germany.
+For the USA, they take data from the OECD. 
+For the three countries, they use the :
 
 - Stock of fixed assets by industry and year. 
 - Stock of fixed assets by institutional sector. 
@@ -208,55 +215,61 @@ For the three countries, they use :
 
 ### Emissions data
 
-64. Fot data on emissions, the authors use EUrostat for France and Germany, and the OECD for the USA. 
+For data on emissions, the authors use Eurostat for France and Germany, and the OECD for the USA. 
 They only take the total of scope 1 emissions for all industries. 
 
-65. They also want to associate households electricity consumption carbon footprint to the households directly, and not transfer it to the owners of energy producer firms for example. In order to do so, they use extra data : 
+They also want to associate households electricity consumption carbon footprint to the households directly, and not transfer it to the owners of energy producer firms for example. 
+In order to do so, they use extra data : 
 
-- For Germany, they use the national environmental economic accounts,
-- For France, they use the National Energy Balance,
+- For Germany, they use the national environmental economic accounts.
+- For France, they use the National Energy Balance.
 - For the USA, they use the monthly energy review tables. 
 
-66. In 64, there are only direct emissions. However, the authors are also interested by indirect emissions, "necessary to satisfy final demande" (p.17). To do so, they use a dataset from the FIGARO (Full International and Global Accounts for Research in input-Output). This dataset is based on input-output tables of industries and compute the "carbon footprint linked to final demand categories", i.e. among households, the government, gross fixed capital formation (the dataset includes 45 countries plus a category "the rest of the world").  Since the dataset only accounts for dioxyde carbon, and not for other GHG emissions, they rescale emissions to estimate other GHG emissions also. 
+The authors are interested by indirect emissions, "necessary to satisfy final demand" (p.17).
+To do so, they use a dataset from the FIGARO (Full International and Global Accounts for Research in input-Output) from Eurostat.
+This dataset is based on input-output tables of industries and compute the "carbon footprint linked to final demand categories", i.e. among households, the government, gross fixed capital formation (the dataset includes 45 countries plus a category "the rest of the world").
+Since the dataset only accounts for dioxyde carbon, and not for other GHG emissions, they rescale emissions to estimate other GHG emissions also. 
 
 ### Emission inequality data from the literature 
 
-67. To take the distribution of direct households emissions and consumption-based emissions, they use the following work : 
+To take the distribution of direct households emissions and consumption-based emissions, they use the following work : 
 
-- For France, Malliet 2020,
-- For Germany, Hardadi et al., 2021, 
-- FOr the USA, Starr et al., 2023a. 
+- For France, Malliet 2020.
+- For Germany, Hardadi et al., 2021.
+- For the USA, Starr et al., 2023a.
 
 They refer to the appendix for more details on those papers. 
 
 ### Cross-border investment data
 
-68. For the emission intensity of cross border investment, they use the following datasets : 
+For the emission intensity of cross border investment, they use the following datasets : 
 
 - EU-Finflows for financial investment, 
 - EU-EDGAR for emission intensity.
 
 ## 3.3. Methodology (pp.18-26)
 
-69. The authors say that they first produce extended aggregate accounts as a "first step" for the ownership-based and mix-based approaches. For these, one need emissions from capital. Here, I note that "macroeconomic environmental accounts" is just a fnacy name for linkage from emissions to institutional sectors. 
+The authors say that they first produce extended aggregate accounts as a "first step" for the ownership-based and mix-based approaches.
+For these, one need emissions from capital.
+Here, I note that "macroeconomic environmental accounts" imply refers to the linkage process from emissions to institutional sectors. 
 
 ### 3.3.1 Step 1 : Extended aggregate environmental and economic accounts (pp.18-23)
 
-70. The difference between the usual and extended accounts is that : 
+The difference between the usual and extended accounts is that : 
 
-- in the usual accounts, emissions are linked to industries, 
-- in the extended accounts, emissions are linked to institutional sectors. 
+- In the usual accounts, emissions are linked to industries.
+- In the extended accounts, emissions are linked to institutional sectors. 
 
-71. The novelty is thus the attribution to the institutional sectors. They also mention that they distringuish the type of capital for the industry. 
+The novelty is thus the attribution to the institutional sectors.
+They also mention that they disinguish the type of capital for the industry. 
+The authors say that they first do the accounts for the ownership-based approach, then for the mix-based approach.
+Two different versions of the accounts are thus necessary. 
 
-72. The authors say that they first do the accounts for the ownership-based approach, then for the mix-based approach. Two different versions of the accounts are thus necessary. 
-
-73-82. Basically, the do as in Figure 2, page 21 : 
+Basically, they do as in Figure 2, page 21 : 
 
 ![Attribution of emissions to economic sectors in the ownership-based approach](./Resources/Figures/Figure_2.png)
 
-79. They dedicate a specific paragraph to finding proxy for emissions linked to foreign investment, that they get through the EU-Finflow and EU-EDGAR datasets.
-
+They dedicate a specific paragraph to finding proxy for emissions linked to foreign investment, that they get through the EU-Finflow and EU-EDGAR datasets.
 The results of this first step are to be seen in the Figure 3, page 23 : 
 
 ![Total national emissions in million tonnes according to the three approaches](./Resources/Figures/Figure_3.png)
@@ -265,21 +278,22 @@ We note here that those are national emissions, i.e. aggregated between househol
 
 ### 3.3.2 Step 2 : Distributional environmental accounts (pp.23-26)
 
-84-85. For capital emissions, they use wealth distribution and the distribution of assets along this wealth distribution (4 different types) to link emissions to individuals. They mention again that some problems exist with the HFCS data. The 4 different types of assets are : 
+For capital emissions, they use wealth distribution and the distribution of assets along this wealth distribution (4 different types) to link emissions to individuals.
+They mention again some mentioned problems existing with the HFCS data.
+The 4 different types of assets are : 
 
-- housing, 
-- directly owned business assts, 
-- pension and life insurance assets, 
-- equity
+- Housing.
+- Directly owned business assts.
+- Pension and life insurance assets.
+- Equity.
 
-86-87 . For consumption-based emissions, they use estimate from Malliet, Hardadi, and Starr, as mentioned in 67. 
-
-88. They use a generalized Pareto interpolation method to deal with the lack of data points from the papers. For the HFCS,  they assume constant elasticity at the top of the distribution (p.25) to deal with the problems they already mentioned about this data. 
+For consumption-based emissions, they use estimate from Malliet, Hardadi, and Starr, as mentioned previously.
+They use a generalized Pareto interpolation method to deal with the lack of data points from the papers.
+For the HFCS, they assume constant elasticity at the top of the distribution (p.25) to deal with the problems they already mentioned about this data. 
 
 #### Distributing government emissions
 
-90-92. They present a benchmark (see 45, page 12), a flat version (uniform redistribution), and a version where government emissions are excluded. 
-
+They present different ways to redistribute government emissions : their benchmark (see 45, page 12), a flat version (uniform redistribution), and a version where government emissions are excluded. 
 The results they obtain are to be seen in Figure 4, page 25 : 
 
 ![Top 10% emission shares depending on allocation method for government emissions](./Resources/Figures/Figure_4.png)
@@ -288,34 +302,39 @@ The results they obtain are to be seen in Figure 4, page 25 :
 
 ## 4.1. Capital emissions by industry and institutional sector (pp.26-28)
 
-The authors present Table 1 (p.28), where they present carbon intensity per industry for France, Germany and the USA in two different approaches : mix-based and ownership-based. The mixed approach attributes emissions to industry only through capital formation / investment emissions, while the ownership approach attributes all emissions of industrial sectors to industries. 
+The authors present Table 1 (p.28), where they present carbon intensity per industry for France, Germany and the USA in two different approaches : mix-based and ownership-based.
+The mixed approach attributes emissions to industry only through capital formation / investment emissions, while the ownership approach attributes all emissions of industrial sectors to industries. 
 
 ![Emission intensities by industry groups](./Resources/Figures/Table_1.png)
 
-94-97. The authors comment on several observations from the Table 1 (p.28) : 
+The authors comment on several observations from the Table 1 (p.28) : 
 
 - Most emission come from : 
-    - manufacturing for France and Germany, 
+    - manufacturing for France and Germany.
     - agriculture and mining for the USA.
 - The most intensive sectors are : 
     - First place : agriculture and mining for France, Germany, and the USA. 
-    - Second place for Germany and the USA : waste and water
+    - Second place for Germany and the USA : waste and water.
     - Second place for France : manufacturing. 
 - Similar intensities for manufacturing seem to support the hypothesis of a competitive global market.
-- The huge variations in intensities of energy sector translate differences in strategies.  
-- Difference in real estate sector are due to difference in accounting methods between the USA and Europe. In this sense, this specific sector is not comparable du those differences. 
+- The huge variations in intensities of energy sector translate differences in strategies in the energy mix of the countries.
+- Difference in real estate sector are due to difference in accounting methods between the USA and Europe.
+In this sense, this specific sector is not comparable due those differences. 
 
-## 4.2. capital emissions by asset class (pp.29-30)
+## 4.2. Capital emissions by asset class (pp.29-30)
 
-98. The authors then present capital emissions by asset class. They mention that this approach is more sensitive to changes in the value of assets. Here, they identify 5 different classes, namely : 
+The authors then present capital emissions by asset class.
+They mention that this approach is more sensitive to changes in the value of assets.
+Here, they identify 5 different classes, namely : 
 
-- housing assets, 
-- business assets, 
-- equities, 
-- pension assets, 
-- fixed income assets (that are associated with emission levels of 0). Those are : government bonds, corporate bonds, asset-backed securities like mortgage-backed bonds. 
+- Housing assets.
+- Business assets.
+- Equities.
+- Pension assets.
+- Fixed income assets (that are associated with emission levels of 0).
+Those are : government bonds, corporate bonds, asset-backed securities like mortgage-backed bonds. 
 
-99-103. The authors then proceed to comment their results, summarized in Table 2 (page 30) : 
+The authors then proceed to comment their results, summarized in Table 2 (page 30) : 
 
 - Housing assets have the biggest market valuation, but have very marginal emissions. 
 - Equities are the most polluting assets by far. 
@@ -324,58 +343,58 @@ The authors present Table 1 (p.28), where they present carbon intensity per indu
 
 ![Asset classes and emission intensity per million $/€ owned (owenrship-based approach)](./Resources/Figures/Table_2.png)
 
-## 4.3. the role of foreign capital in national emissions (pp.30-31)
+## 4.3. The role of foreign capital in national emissions (pp.30-31)
 
-104. "Foreign equiy ownership therefore constitutes a substantial fraction of the equities held and the overall wealth of individuals in these nations" (p.30). 
-
-105. Generally, equity held abroad by France and Germany citizens are more carbon intensive than the domestic equity. The inverse is true for the US citizens, i.e. domestic equities of the US held by US citizens are more carbon intensive than foreign equities held by US citizens.
-
-106. The authors try to explain this difference in carbon intensity of equity by giving two explanations. The first involve the intermediation level of equity, and the second is simply that "ultimate ownership of physical assets are comparatively less carbon-intensive in the US than those owned by French and Germans" (p.31).
+"Foreign equiy ownership therefore constitutes a substantial fraction of the equities held and the overall wealth of individuals in these nations" (p.30).
+Generally, equity held abroad by France and Germany citizens are more carbon intensive than the domestic equity.
+The inverse is true for the US, i.e. domestic equities of the US held by US citizens are more carbon intensive than foreign equities held by US citizens.
+The authors try to explain this difference in carbon intensity of equity by giving two explanations.
+The first involve the intermediation level of equity, and the second is simply that "ultimate ownership of physical assets are comparatively less carbon-intensive in the US than those owned by French and Germans" (p.31).
 
 # 5. The Distribution of Carbon Footprints (pp.31-37)
 
 # 5.1. Emissions rise with income and wealth (pp.31-34)
 
-107. The first finding of the authors is that "emissions consistently exhibit a pronounced income or wealth gradient" (p.31), i.e. when welath or income increase, so does the emissions. 
-
-108. The second important finding of the authors is that depending on the approach, the authors find carbon inequalities levels that are comparable to wealth or income inequality levels. In terms of carbon inequality, the US are globally more inequal than Germany, which is in turn more inequal than France when comparing top 10% to bottom 50% (Check the numbers of the paragraph 107).
+The first finding of the authors is that "emissions consistently exhibit a pronounced income or wealth gradient" (p.31), i.e. when wealth increases, so do the emissions. 
+The second important finding of the authors is that depending on the approach, carbon inequalities levels can be comparable to wealth or income inequality levels.
+In terms of carbon inequality, the US are globally more inequal than Germany, which is in turn more inequal than France when comparing top 10% to bottom 50%.
 In this sense, figure 5 (p.33) is interesting to check : 
 
-- consumption-based approach gives small levels of carbon inequality
-- mix-based approach gives similar levels of carbon inequality as compared to income inequality
-- ownership-based approach gives levels between income and wealth inequalities. 
+- The consumption-based approach gives small levels of carbon inequality.
+- Mix-based approach gives similar levels of carbon inequality as compared to income inequality.
+- Ownership-based approach gives levels between income and wealth inequalities.
 
 ![Per capita emissions by wealth group](./Resources/Figures/Figure_5.png)
 
-109.The authors notice that the poorest people in the US (bottom 50%) have emissions comparable to the middle 40% in France and Germany (except when comparing it in the ownership-based approach). The general idea is that the bottom 50% of the US emits like the 10% of France in average (16.2 tons for the top 10% in France, 14.2 for the bottom 50% in the us).
+The authors notice that the poorest people in the US (bottom 50%) have emissions comparable to the middle 40% in France and Germany (except when comparing it in the ownership-based approach). 
+The general idea is that the bottom 50% of the US emits like the 10% of France in average (16.2 tons for the top 10% in France, 14.2 for the bottom 50% in the US).
+The authors then focus on the top 10% in France and Germany. 
+They note that these groups emissions are quite similar, except for the ownership-based approach, in which the top 10% of Germany emits more by 10 tons in average.
+In the meanwhile, the top 10% of France own 5% more of the national wealth than the top 10% of Germany. 
+Comparing the top 10% of the US to France and Germany, they get that the US group emits 3 times more than the french group, and twice the amount of the german group. 
 
-110. The authors then focus on the top 10% in France and Germany. They note that these groups emissions are quite simlar, except for the ownership-based approach, in which the top 10% of Germany emits more byt 10 tons in average. In the meanwhile, the top 10% of France own 5% more of the national wealth than the top 10% of Germany. 
+For the top 1% :
 
-111. Comparing the top 10% of the US to France and Germany, they get that the US group emits 3 times more than the french group, and twice the amount of the german group. 
-
-112. For the top 1% :
-
-- in France, they emit 169 equivalent of tons of CO2
-- in Germany, they emit 283, 
-- in the US, they emit 547. 
+- In France, they emit 169 equivalent of tons of CO2
+- In Germany, they emit 283, 
+- In the US, they emit 547. 
 
 "Ownership-based emissions of the richest 1% of the population lie 22 to 27 times above the national average in the three countries." (p.32). 
 
-
 ## 5.2. Emissions intensity rises with wealth 
 
-113. THe authors advance that "the average emissions intensity tends to increase alongside wealth at the very top of the distribution" (p.35). Emissions per million euro or dollar grows very fast for the top 10% and 5%. 
+The authors advance that "the average emissions intensity tends to increase alongside wealth at the very top of the distribution" (p.35).
+Emissions per million euro or dollar grows very fast for the top 10% and 5%. 
 
 ![Average annual emissions in tonnes per million dollars or euros owned](./Resources/Figures/Figure_6.png)
 
-114. The authors advance that this seems to suggest that "beyond a certain wealth treshhold, (...) the composition of assets significantly augments the emissions attributed to the wealthy" (p.35).
-
-115. This high carbon intensity at the very top of the distribution explains why emissions (ownership-based) are even more concentrated than wealth itself.
+The authors advance that this seems to suggest that "beyond a certain wealth treshhold, (...) the composition of assets significantly augments the emissions attributed to the wealthy" (p.35).
+This high carbon intensity at the very top of the distribution explains why emissions (ownership-based) are even more concentrated than wealth itself.
 
 ## 5.3. The weight of capital emissions among top groups
 
-116. "When incorporating capital emissions (...), the carbon footprint of the top 1% escalates." (p.36). Basically, the idea is : 
-Emissions of the top 1% :
+"When incorporating capital emissions (...), the carbon footprint of the top 1% escalates." (p.36).
+Basically, the idea is that for the emissions of the top 1%, we have :
 
 | Countries | Share in the consumption-based approach | Share in the ownership-based approach |Increase in tons of CO2 |
 | ----------- | ----------- | ----------- | ----------- |
@@ -383,139 +402,160 @@ Emissions of the top 1% :
 | Germany   | 2%        | 22.3%       | 11       |
 | US   | 6.2%        | 26.9%       | 16       |
 
-117. The authors then put the emphasis on the fact that the top of the distribution has their emissions coming from their asset mainly. The carbon emission structure changes a lot. Generally, when wealth increases, direct emissions decrease and capital emissions increase. "It is quite clear that capital ownership is a paramount determinant of wealthy individuals emissions" (p.36). 
+The authors then put the emphasis on the fact that the top of the distribution has their emissions coming from their asset mainly. 
+The carbon emission structure changes a lot. 
+Generally, when wealth increases, direct emissions decrease and capital emissions increase.
+"It is quite clear that capital ownership is a paramount determinant of wealthy individuals emissions" (p.36). 
 
 ![Breakdown of emissions according to the three approaches](./Resources/Figures/Figure_7.png)
-
-::: {.callout-warning}
-It is important to keep in mind figure 5 (p.33) when commenting figure 7 (p.37). 
-:::
 
 # 6. Discussion (pp.38-51)
 
 ## 6.1. Sensitivity of the results to assumptions (pp.38-39)
 
-118. The authors present figure 8, in which the have ranges of emissions for the top 10% under different scenarios (between 200 and 216) in which they change : 
+The authors present figure 8, in which the have ranges of emissions for the top 10% under different scenarios (between 200 and 216) in which they change : 
 
-- government emissions 
-- non-ownership-based emissions 
-- housing-related emissions
+- Government emissions.
+- Non-ownership-based emissions.
+- Housing-related emissions.
 
-119. Figure 8 (p.38) shows that the benchmark models results are always within the bounds / range given by alternative scenarios. 
+The figure 8 (p.38) shows that the benchmark models results are always within the bounds / range given by alternative scenarios. 
 
-120. Even assuming extreme secnarios, this does not affect "the general patterns we identify in the paper" (p.39), because the benchmark are always within the bounds.
+![Upper and lower bound of Top 10% average emissions and emission shares](./Resources/Figures/Figure_8.png)
 
-## 6.2. Schope and limitations of the data and footprinting approaches (pp.39-44)
+Even assuming extreme secnarios, this does not affect "the general patterns we identify in the paper" (p.39), because the benchmark are always within the bounds.
 
-121. They now talk about the limitations of their approach 
+## 6.2. Scope and limitations of the data and footprinting approaches (pp.39-44)
 
-122. Limitations linked to data sources : 
-They advance that the first weakness is the fact that the data relies on self-reporting, which could lead to important under-reporting for the top of the distribution. They still find similar result in the three countries, which seems to be a good sign. 
+They now talk about the limitations of their approach.
 
-123. The second main limitation of the data they use is the limited number of asset classes. More generally, they do not have enough data on the portfolio composition of the agents. For example, it may be that the very rich mainly own the less emitting firms. We cannot know just based on the data of the paper. However, errors are limited since only the very rich own equity.
+#### Limitations linked to data sources 
 
-124. Also, such data is simply unavailable in a some countries, making the study of the carbon footprint of assets impossible there.
+They advance that the first weakness is the fact that the data relies on self-reporting, which could lead to important under-reporting for the top of the distribution.
+They however still find similar result in the three countries, which seems to be a good sign. 
+The second main limitation of the data they use is the limited number of asset classes.
+More generally, they do not have enough data on the portfolio composition of the agents.
+For example, it may be that the very rich mainly own the less emitting firms.
+We cannot know just based on the data of the paper.
+However, errors are limited since only the very rich own equity.
+Also, such data is simply unavailable in a some countries, making the study of the carbon footprint of assets impossible there.
 
-125. They also mention that air emissions accounts are not of high quality, especially in the US. 
+They also mention that air emissions accounts are not of high quality, especially in the US. 
+Focusing on the weaknesses of the consumption-based approach, they mention : 
 
-126. Focusing on the weaknesses of the consumption-based approach, they mention : 
+- Sampling bias of budget surveys.
+- The assumption of these studies is that "emissions per dollar spent for a particular consumption categoy (...) are equal across different income or wealth groups".
+- Aggregation from multiple countries could be problematic.
 
-- sampling bias of budget surveys
-- the assumptoion of these studies is that "emissions per dollar spent for a particular consumption categoy (...) are equal across different income or wealth groups"
-- aggregation from multiple countries could be problematic.
+For the mixed-based approach, the limits are coming from both wealth data and from those previously mentioned.
 
-127. For the mixed-based approach, the limits are coming from both wealth data and from those mentioned in paragraph number 126. 
+#### Carbon footprints and individual responsibility 
 
-128. Carbon footprints and individual responsibility 
+A difficulty is that "no broadly defined individual footprinting approach can fully capture the actual responsibility individuals bear for emissions" (p.41).
+Associating emissions with responsibility usually assumes : 
 
-A difficulty is that "no broadly defined individual footprinting appraoch can fully capture the actual responsibility individuals bear for emissions" (p.41). Associating emissions with responsibility usually assumes : 
+- Agency, intentionaly, and control.
+- Information.
+- Alternatives.
 
-- agency, intentionaly, and control, 
-- information, 
-- alternatives
+In reality, those 3 conditions are rarely fulfilled. 
 
-129. In reality, those 3 conditions are rarely fulfilled. 
+For example, knowledge about emissions associated with certain products is rare.
+Even when possessed, no alternatives may exist.
+They give here the example of the Yellow Vests in France between 2018 and 2019. 
 
-130. For example, knowledge about emissions associated with certain products is rare. Even when possessed, no alternatives may exist. They give here the example of the Yellow Vests in France between 2018 and 2019. 
+One approach that could meet the 3 conditions is the ownership-based approach, but even there, some limits exist. 
+For example, who has decision in the firm : managers, or owners ?
+Even there, the data does not allow for a well defined identification strategy. 
 
-131. One approach that could meet the 3 conditions of 128 is the ownership-based approach, but even there, some limits exist. 
+Also, what if some expenditure are done to reduce carbon footprint in the the future ?
+For example : eletric vehicules, or machines to diminish the carbon emission of the production process.
+This add a new form of temporal complexity. 
+The authors estimate that these considerations are however unlikely to impact their results. 
 
-132. For example, who has decision in the firm : managers, or owners ? Even there, the data does not allow for a well defined identification strategy. 
-
-133. Also, what if some expenditure are done to reduce carbon footprint in the the future ? For example : eletric vehicules, or machines to diminish the carbon emission of the production process. This add a new form of temporal complexity. 
-
-134. The authors estimate that these considerations are unlikely to impact their results. 
-
-135. The authors mention that one could model further : 
+The authors mention that one could model further : 
 
 - $\alpha$ the rate of control over indirect emissions. 
 - $\beta$ the rate of control over direct emissions. 
 
 The chosen approach could vary in function of $\alpha$ and $\beta$.
 
-136. More studies to find out more about $\alpha$ and $\beta$ would be necessary, to allow for a better definition of the chosen approach. 
-
-137. The authors also mention that the role of the government is underestimated here, and that one could study the role of policy making in the process of government emission distribution (they mention the example of the lack of public transportation). 
+More studies to find out more about $\alpha$ and $\beta$ would be necessary, to allow for a better definition of the chosen approach. 
+The authors also mention that the role of the government is underestimated here, and that one could study the role of policy making in the process of government emission distribution (they mention the example of the lack of public transportation). 
 
 ## 6.3. How our estimates compare to earlier work. 
 
-140. They say that Greepeace 2020 is the closest work to their ownership-based approach. However : 
+The authors mention a 2020 Greepeace study, that would be the closest work to their ownership-based approach. However : 
 
-- It is not macro-consistent. 
+- This study is not macro-consistent. 
 - They have less good data of wealth / income distribution. 
 
-141. Compared to the mixed-based approach, Chancel 2022 is closer. However : 
+Compared to the mixed-based approach, Chancel 2022 is closer. However : 
 
 - It has less prices data on emissions. 
 - It has no data on joint income / wealth distribution. 
 - It has less flexibility on government role. 
 - It has less data on wealth distribution. 
 
-142. Compared to Malliet, Starr, Hardadi, in those studies : 
-- Units are not the same, 
-- The role of government is not the same, 
-- income / wealth may be in different units : net wealth, pre/post-tax...
+Compared to Malliet, Starr, Hardadi, in those studies : 
+- Units are not the same.
+- The role of government is not the same.
+- Income / wealth for the distribution of the population may be in different units : net wealth, pre/post-tax...
 
-143. FOcusing on the country-level, they are able to reproduce important findings, such as : 
+In this sense, the present paper creates a kind of harmonized framework. 
 
-- wealthy nations import more embedded CO2 emissions than they export (France, Germany)
-- emissions due to capital owned are more important than territorial emissions (France, Germany)
-- the inverse is true for the US, "which appears to be consistent with the negative net foreign asset position of the country" (p.45).
+Focusing on the country-level, they are able to reproduce important findings, such as : 
+
+- Wealthy nations import more embedded CO2 emissions than they export (France, Germany).
+- Emissions due to capital owned are more important than territorial emissions (France, Germany).
+- The inverse is true for the US, "which appears to be consistent with the negative net foreign asset position of the country" (p.45).
 
 ## 6.4. Stylized facts on inequality and emissions (p. 46)
 
-144. First of all, wealth is positively correlated with emissions. They here mention the "Environmental Kuznets Curve", and say that their study goes against it. 
+First of all, wealth is positively correlated with emissions.
+They here mention the "Environmental Kuznets Curve", and say that their study goes against it. 
 
-145. In the consumption-based approach, carbon intensity may be higher for the poorest, because less intensive products are costlier, but carbon emissions are still higher. 
+In the consumption-based approach, carbon intensity may be higher for the poorest, because less intensive products are costlier, but carbon emissions are still higher. 
 
-146. THe opposite is tru for wealth emissions, which are more concentrated than wealth itself. Indeed, carbon intensity is very high for the top of the distribution... 
+The opposite is true for wealth emissions, which are more concentrated than wealth itself.
+Indeed, carbon intensity is very high for the top of the distribution.
 
 ## 6.5. Distributional properties and revenue estimates for a carbon wealth tax (pp.46-51)
 
-147-148. Taxation on consumption and goods are propblematic, because of the focus on consumption...
+They recall that taxation on consumption and goods are propblematic, because of the focus on consumption, as seen previously.
 
-149. They mention figure 9 (p.49), that presents the progressivity of a 150 euro/dollar per tonne on different types of emissions. Basically, tax on consumption and private transport are regressive, while tax on capital is progressive. 
+They mention figure 9 (p.49), that presents the progressivity of a 150 euro/dollar per tonne on different types of emissions.
+Basically, tax on consumption and private transport are regressive, while tax on capital is progressive. 
 
-150. They propose the lecture of the figure 10 (page 50), in which they simulate the impact of tax on tonne of COE2. They advance it is not much. 
+![Progressivity of a 150 euros/dollars per-tonne tax on different types of emissions](./Resources/Figures/Figure_9.png)
+
+They then propose the lecture of the figure 10 (page 50), in which they simulate the impact of tax on tonne of COE2.
+They compare it wih a previously existing french tax, and show that it would not be too absurd in terms of amount taxed.
 
 ![Progressivity of taxes levied on ownership-based emissions (ownership-based approach)](./Resources/Figures/Figure_10.png)
 
-151. They propose figure 11 (page 50), in which they compare tax on net wealth and tax on cpaital emissions. They advance it is not much. They also mention Figure 12 (page 51), that estimates a static (without taking into account behavioral responses) consequence of a carbon taxation to estimate revenu for the government. 
+They propose figure 11 (page 50), in which they compare tax on net wealth and tax on capital emissions.
+They advance, comparing, that this would not correspond to an unreasnable amount.
+They also mention Figure 12 (page 51), that estimates a static (without taking into account behavioral responses) consequence of a carbon taxation to estimate revenu for the government. 
 
 ![Tax burden for average top 1% wealth holder of taxes levied on ownership-related emissions](./Resources/Figures/Figure_11.png)
 
 ![Simple static revenue estimates for a per-tonne tax on capital ownership-based emissions](./Resources/Figures/Figure_12.png)
 
-152. The authors then underly the fact that "the results are intended to show that these taxes could be considered in the future as part of a more diverse envionmental policy mix" (p.48). Their goal with the precedent figures is not to argue that those are taxation policy that should be implemented, but more to show that alternatives are possible in the implementation of policies to go against CO2 emissions : "Departing from a purely Pigouvian perspective, carbon taxes could also be rationalized as a policy tool to achieve an externally defined behavioral change with the most limited harm to social welfare" (p.48).
+The authors then underly the fact that "the results are intended to show that these taxes could be considered in the future as part of a more diverse envionmental policy mix" (p.48).
+Their goal with the precedent figures is not to argue that those are taxation policy that should be implemented, but more to show that alternatives are possible in the implementation of policies to go against CO2 emissions : "Departing from a purely Pigouvian perspective, carbon taxes could also be rationalized as a policy tool to achieve an externally defined behavioral change with the most limited harm to social welfare" (p.48).
 
-153. They then answer concerns about possible double-taxation by putting the emphasis on the need for a reflexion on taxation strategy. In this sense, double taxation could be wanted to create a higher incentive for carbon emissions reduction (they mention the case of foreign firms producing for foreign markets, but owned by resident investors). They recall however that this is not the goal of their paper.
+They then answer concerns about possible double-taxation by putting the emphasis on the need for a reflexion on taxation strategy.
+In this sense, double taxation could be wanted to create a higher incentive for carbon emissions reduction (they mention the case of foreign firms producing for foreign markets, but owned by resident investors).
+They recall however that this is not the goal of their paper.
 
 # 7. Conclusion (p.52)
 
-154. The authors summarize their main findings : 
+The authors summarize their main findings : 
 
-- "Accounting for ownership-realted emissions more than double the cabron footprint of the top 10%" (p.52)
-- "Emissions from capital ownership alone are more concentrated than capital itself" (p.52)
+- "Accounting for ownership-realted emissions more than double the cabron footprint of the top 10%" (p.52).
+- "Emissions from capital ownership alone are more concentrated than capital itself" (p.52).
 - The policy implications are interesting to explore. 
 
-155. The authors underly the fact that alternative approaches to the consumption-based approach are necessary and insightful. They however underly the need for more granular data, and for a theoretical framework of optimal capital taxation to be extended. 
+Finally, the authors underly the fact that alternative approaches to the consumption-based approach are necessary and insightful.
+They however underly the need for more granular data, and for a theoretical framework of optimal capital taxation in relation with carbon emissions to be extended. 
