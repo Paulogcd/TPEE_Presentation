@@ -152,21 +152,123 @@
 \end{frame}
 
 \section{Data Sources and Methodology}
-\begin{frame}
-    \textbf{Key Datasets Used:}
-    \begin{itemize}
-        \item \textbf{Wealth Data:} HFCS (France/Germany) and DINA (US).
-        \item \textbf{Macroeconomic Data:} National accounts from Eurostat and OECD.
-        \item \textbf{Emissions Data:} Air emission accounts (Eurostat, OECD).
-        \item \textbf{Input-Output Tables:} Eurostat FIGARO dataset (2010–2020).
-    \end{itemize}
 
-    \textbf{Example Insights:}
+\begin{frame}{\secname}
+    \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
+\end{frame}
+
+% Slide 2: Conceptual Framework
+\subsection{Conceptual Framework}
+\begin{frame}{\subsecname}
+    \textbf{Three Approaches to Carbon Footprints:}
     \begin{itemize}
-        \item Emissions in US agriculture: \textbf{534.9 tCO$_2$/million dollars owned}.
-        \item Manufacturing emissions in France: \textbf{95.1 MtCO$_2$} (ownership approach).
+        \item \textbf{Ownership Approach:} Attributes all direct emissions of firms to their owners.
+        \item \textbf{Mixed Approach:} Attributes emissions linked to investment to owners and all others to consumers.
+        \item \textbf{Consumption Approach:} Allocates all direct and indirect emissions to consumers.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Key Principles:}
+    \begin{itemize}
+        \item \textbf{Consistency:} Aligns with national accounts.
+        \item \textbf{Exclusivity:} Ensures no double counting of emissions.
     \end{itemize}
 \end{frame}
+
+% Slide 3: Data Sources Overview
+\subsection{Data Sources}
+\begin{frame}{\subsecname}
+    \textbf{Main Data Sources:}
+    \begin{itemize}
+        \item \textbf{Wealth Data:} HFCS for France and Germany, DINA micro-files for the U.S.
+        \item \textbf{Capital Stock:} National accounts data from Eurostat and OECD.
+        \item \textbf{Emissions:} Air emission accounts (Eurostat, OECD).
+        \item \textbf{Input-Output Tables:} EU-FIGARO dataset for indirect emissions.
+        \item \textbf{Cross-Border Investment:} EU-Finflows database and EU-EDGAR.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Challenges:}
+    \begin{itemize}
+        \item Surveys underrepresent ultra-wealthy households.
+        \item Need for alignment between financial and environmental datasets.
+    \end{itemize}
+\end{frame}
+
+% Slide 4: Methodology Overview
+\subsection{Methodology Overview}
+\begin{frame}{\subsecname}
+    \textbf{Two Key Steps:}
+    \begin{enumerate}
+        \item \textbf{Extended Aggregate Environmental Accounts:} Relates emissions to industries, asset classes, and institutional sectors.
+        \item \textbf{Distributional Environmental Accounts:} Allocates emissions from institutional sectors to individuals.
+    \end{enumerate}
+    \vspace{0.3cm}
+    \textbf{Key Metrics:}
+    \begin{itemize}
+        \item Emissions per industry.
+        \item Emissions per asset class.
+        \item Emissions per wealth group.
+    \end{itemize}
+\end{frame}
+
+% Slide 5: Step 1 - Extended Environmental Accounts
+\subsubsection{Extended Aggregate Environmental Accounts}
+\begin{frame}{\subsubsecname}
+    \textbf{Purpose:}
+    \begin{itemize}
+        \item Calculate total emissions by industry and institutional sector.
+        \item Link emissions to the value of the capital stock.
+    \end{itemize}
+
+    \textbf{Example Table: Industry Emissions}
+    \begin{table}[]
+        \centering
+        \begin{tabular}{lccc}
+        \toprule
+        \textbf{Industry}        & \textbf{France (MtCO$_2$)} & \textbf{Germany} & \textbf{U.S.} \\
+        \midrule
+        Agriculture/Mining       & 95    & 212   & 1637  \\
+        Manufacturing            & 95    & 212   & 431   \\
+        Energy                   & 151   & 289   & 431   \\
+        Services & 20    & 35    & 48    \\
+        \bottomrule
+        \end{tabular}
+    \end{table}
+\end{frame}
+
+% Slide 6: Step 2 - Distributional Environmental Accounts
+\subsubsection{Distributional Environmental Accounts}
+\begin{frame}{\subsubsecname}
+    \textbf{Purpose:}
+    \begin{itemize}
+        \item Distribute total emissions from sectors to individuals.
+        \item Attribute emissions based on asset ownership and consumption patterns.
+    \end{itemize}
+
+    \textbf{Methodology:}
+    \begin{itemize}
+        \item \textbf{Ownership Approach:} Allocates emissions directly linked to owned assets.
+        \item \textbf{Mixed Approach:} Allocates investment-related emissions to owners, all others to consumers.
+        \item \textbf{Consumption Approach:} Allocates all emissions to consumers.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Challenges:}
+    \begin{itemize}
+        \item Accurate attribution of emissions for cross-border investments.
+        \item Limited data granularity for certain asset classes.
+    \end{itemize}
+\end{frame}
+
+% Slide 9: Conclusion
+\subsection{Conclusion of Section 3}
+\begin{frame}{\subsecname}
+    \textbf{Key Takeaways:}
+    \begin{itemize}
+        \item Emission allocation methods depend on robust data and models.
+        \item Ownership and mixed approaches provide nuanced insights into emissions inequality.
+        \item Data quality and granularity remain critical for future research.
+    \end{itemize}
+\end{frame}
+
 
 \section{Carbon Footprint of the Capital}
 \begin{frame}{\secname}
@@ -337,42 +439,190 @@
 \end{frame}
 
 \section{Discussion}
+
 \begin{frame}{\secname}
     \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
 \end{frame}
 
-\subsection{Sensitivity of the results to assumption}
+\subsection{Robustness of the results}
 \begin{frame}{\subsecname}
-    test \\
-    Include Figure 8.
-    %\includegraphics[width=0.9\textwidth]{../Figures/Figure_8.png}
+    \textbf{Robustness checks}
+    \textit{Even under extreme combinations of assumptions, the general patterns observed hold, in particular that accounting for ownership-based emission footprints increases emission inequality considerably.}
+    \includegraphics[width=1\linewidth]{../Figures/Figure_8.png}
 \end{frame}
 
-\subsection{Scope and limitations of the data and foootprinting approaches}
-\begin{frame}{\subsecname}
+\subsection{Scopes and limitations}
+
+\subsubsection{Limitations due to the data}
+
+% Slide 3: Incomplete Data for High-Wealth Individuals
+\begin{frame}{\subsecname \  - \subsubsecname}
+    Incomplete Data for High-Wealth Individuals \\ 
+    \textbf{Issue :}
     \begin{itemize}
-        \item Limitations linked to data Sources
-        \item Carbon footprints and individual responsibility
+        \item Surveys like HFCS and DINA underrepresent the top 1\% of wealth holders.
+        \item This underestimates emissions linked to equity and business assets.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Discussion :}
+    \begin{itemize}
+        \item Integrate alternative data sources (e.g., tax records, billionaire lists).
+        \item Refine attribution of emissions to high-net-worth individuals.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Impact:}
+    \begin{itemize}
+        \item Potential bias in emissions share attributed to the wealthiest.
     \end{itemize}
 \end{frame}
 
-\subsection{How our estimates compare to earlier work}
-\begin{frame}{\subsecname}
+% Slide 4: Sensitivity to Assumptions
+\begin{frame}{\subsecname \  - \subsubsecname}
+    Sensitivity to Assumptions \\ 
+    \textbf{Issue :}
+    \begin{itemize}
+        \item Allocation of government emissions varies (proportional to income vs. lump-sum distribution).
+        \item Cross-border investments use average intensities, ignoring sector-specific differences.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Discussion :}
+    \begin{itemize}
+        \item Tested alternative assumptions for government emissions:
+        \begin{itemize}
+            \item Proportional to income: increases share of emissions for wealthy groups.
+            \item Lump sum: reduces their share.
+        \end{itemize}
+        \item Importance of robust sensitivity analysis.
+    \end{itemize}
+\end{frame}
+
+% Slide 5: Lack of Granularity in Asset Data
+\begin{frame}{\subsecname \  - \subsubsecname}
+    Lack of Granularity in Asset Data \\ 
+    \textbf{Issue :}
+    \begin{itemize}
+        \item No differentiation between carbon-intensive and low-carbon investments.
+        \item Masks the role of sustainable finance in reducing emissions.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Discussion :}
+    \begin{itemize}
+        \item Propose linking firm-level environmental data to financial datasets.
+        \item Enables better identification of green vs. carbon-intensive portfolios.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Impact:}
+    \begin{itemize}
+        \item Improved insights into the role of individual investment behavior.
+    \end{itemize}
+\end{frame}
+
+% Slide 6: Challenges with Cross-Border Investments
+\begin{frame}{\subsecname \  - \subsubsecname}
+    Challenges with Cross-Border Investments \\
+    \textbf{Issue :}
+    \begin{itemize}
+        \item Relies on average carbon intensities by country.
+        \item Ignores sector-specific variations in foreign economies.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Discussion :}
+    \begin{itemize}
+        \item Highlighted uncertainty in emissions from foreign equity.
+        \item Proposed improvements:
+        \begin{itemize}
+            \item Granular international investment data.
+            \item Sector-specific emissions intensities for cross-border assets.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Slide 7: Dependence on Static Models
+\begin{frame}{\subsecname \  - \subsubsecname}
+    Dependence on Static Models \\
+    \textbf{Issue :}
+    \begin{itemize}
+        \item Relies on static multi-regional input-output models (MRIOs).
+        \item Assumes linear relationships between inputs and emissions.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Discussion :}
+    \begin{itemize}
+        \item Recommends dynamic or hybrid models.
+        \item These models require richer datasets, currently unavailable.
+    \end{itemize}
+    \vspace{0.3cm}
+    \textbf{Impact:}
+    \begin{itemize}
+        \item Limits ability to capture feedback effects and technological change.
+    \end{itemize}
+\end{frame}
+
+\subsubsection{Interpretative Limitations and Individual Responsibility}
+\begin{frame}{\subsecname \  - \subsubsecname}
+
+    \textbf{Carbon footprint and individual responsibility:} \\ 
+    No broadly defined individual footprinting approach can fully capture the actual responsibility individual bears for emissions. \\
+
+    The three conditions for individual responsibility:
+    \begin{itemize}
+        \item Agency
+        \item Intentionality
+        \item Alternatives
+    \end{itemize}
+
+    In reality, these conditions are rarely met. \\
+
+    A potential way to account for individual responsibility:
+    \begin{itemize}
+        \item $\alpha$: rate of control over indirect emissions embedded in individual consumption
+        \item $\beta$: rate of agency and control over direct emissions embedded in direct consumption 
+    \end{itemize}
+
+    \vspace{5pt}
+    The role of the government in decarbonization.
 \end{frame}
 
 \subsection{Stylized facts on inequality and emissions}
 \begin{frame}{\subsecname}
-    Stylized facts.
+
+    \begin{enumerate}
+        \item \textbf{Challenging the Kuznets curve}: a pronounced economic gradient linked to emissions.
+
+            \textit{Emissions do not decline after a certain income level.}
+            \vspace{5pt}
+
+        \item \textbf{Consumption-based emissions are less concentrated than income and wealth.}
+        
+            \textit{Because wealthier individuals consume a smaller fraction (and wealth) than less well-off individuals.}
+            \vspace{5pt}
+
+        \item \textbf{Wealth emissions are even more concentrated than wealth itself.}
+        
+            \textit{Because the type of assets owned by the bottom 90$\%$ (mostly housing and deposits) have low or zero carbon intensity.}
+            \vspace{5pt}
+
+    \end{enumerate}
+
 \end{frame}
 
-\subsection{Distributional properties and revenue estimates for a carbon wealh tax}
+
+\subsection{Distributional properties and revenue estimates for a carbon wealth tax}
 \begin{frame}{\subsecname}
+    So far, climate tax policy mirrors the approaches taken in the climate inequality literature, which have not considered the role of the individual.
+    \textbf{A 150 euro/dollars "pet-tonne" tax on the carbon content of assets}
+    \begin{center}
+        \includegraphics[width=1\textwidth]{../Figures/Figure_9.png}
+    \end{center}
 \end{frame}
+
 
 \section{Conclusion}
-\begin{frame}
-    \tableofcontents[currentsection, hideothersubsections, sections=\value{section}]
+\begin{frame}{\secname}
+    \begin{itemize}
+        \item Complementarity of the three approaches, way to analyse emissions inequality.
+        \item Calling for a broader theory on optimal taxation based on capital carbon emissions. 
+    \end{itemize}
 \end{frame}
-
 
 \end{document}
